@@ -1,0 +1,312 @@
+
+
+  
+  
+ 
+  
+ 
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Iniciar tu entorno OpenERP &mdash; Documentacion Publica Vauxoo - Openerp</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="http://nhomar.github.io/bootswatch/vauxoo/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="Documentacion Publica Vauxoo - Openerp" href="index.html" />
+    <link rel="prev" title="Manuales Públicos - Vauxoo’s documentation!" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="robots" content="noindex" />
+
+  </head>
+  <body>
+
+  <div id="navbar" class="bs3 navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Manuales Publicos Vauxoo</a>
+      </div>
+
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+            
+              
+              
+            
+            
+            
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="divider-vertical"></li>
+            
+              
+                
+  <li><a href="index.html"
+         title="Previous Chapter: Manuales Públicos - Vauxoo’s documentation!">&laquo; Previous</a></li>
+              
+            
+          </ul>
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+    </div>
+  </div>
+
+<div class="bs3 bs3-form-bg">
+<div class="bgvauxoo bg-fixed">
+</div>
+<div style="background:transparent;">
+<div class="container">
+  <div class="row">
+    
+      <div class="col-md-3">
+        <div id="sidebar" class="nav bs-sidenav">
+          
+          <li>
+<h4 class="h4-padleft">Table of Content</h4>
+  <ul class="localtoc"><ul>
+<li><a class="reference internal" href="#">Iniciar tu entorno OpenERP</a><ul>
+<li><a class="reference internal" href="#instalacion-desde-las-fuentes">Instalación desde las fuentes</a><ul>
+<li><a class="reference internal" href="#directorio-de-trabajo">Directorio de trabajo</a></li>
+<li><a class="reference internal" href="#descarga-el-script-de-inicio">Descarga el Script de inicio</a></li>
+<li><a class="reference internal" href="#descarga-las-fuentes">Descarga las fuentes</a></li>
+<li><a class="reference internal" href="#instalando-las-dependencias">Instalando las dependencias</a></li>
+<li><a class="reference internal" href="#iniciamos-el-usuario-de-base-de-datos">Iniciamos el usuario de base de datos</a></li>
+<li><a class="reference internal" href="#ejecutamos-el-servidor">Ejecutamos el servidor</a></li>
+<li><a class="reference internal" href="#probamos-que-todo-este-en-orden">Probamos que todo esté en orden</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#opciones-de-la-linea-de-comandos">Opciones de la Línea de comandos</a></li>
+<li><a class="reference internal" href="#configuraciones">Configuraciones</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+<h4 class="h4-padleft">Previous Topic</h4>
+  <ul class="localtoc">
+    <ul class="nav">
+    <li>
+    <a href="index.html"
+         class="reference internal"
+         title="Previous Chapter: Manuales Públicos - Vauxoo’s documentation!">Manuales Públicos - Vauxoo’s documen...</a>
+    </li>
+  </ul>
+  </ul>
+<h4 class="h4-padleft">This Page</h4>
+ <ul class="localtoc">
+    <ul class="nav">
+     <li>
+  <a href="_sources/openerpversionall.txt"
+     class="reference internal"
+     rel="nofollow">Show Source</a></li>
+</ul>
+</ul>
+</li>
+        </div>
+      </div>
+    
+    <div class="col-md-9">
+      
+  <div class="section" id="iniciar-tu-entorno-openerp">
+<h1>Iniciar tu entorno OpenERP<a class="headerlink" href="#iniciar-tu-entorno-openerp" title="Permalink to this headline">¶</a></h1>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Todos los ejemplos en éste documento están basados en <a class="reference external" href="http://www.ubuntu.com">Ubuntu</a> 13.04 o superior, pero
+conceptualmente son replicables en otras plataformas.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Todos los ejemplos en éste documento son ejecutados como usuario &#8220;Sin Privilegios root&#8221; cuando
+se requieran los privilegios de un superusuario se mostrará el comando acompñado del comando
+<tt class="docutils literal"><span class="pre">sudo</span></tt></p>
+</div>
+<div class="section" id="instalacion-desde-las-fuentes">
+<h2>Instalación desde las fuentes<a class="headerlink" href="#instalacion-desde-las-fuentes" title="Permalink to this headline">¶</a></h2>
+<p>El código fuente se encuentra en <a class="reference external" href="https://launchpad.net/">Launchpad</a>. Para obtener el código fuente deberás tener instalado
+<a class="reference external" href="http://bazaar.canonical.com/en/">Bazaar</a> que es el sistema de control de versiones utilizado por OpenERP para manejar su código
+fuente de ésta manera podrás bajar el mismo, básicamente éste sistema te permite llevar un
+seguimiento de los cambios en la historia del proyecto y colaborar eficientemente. Deberás crear tu
+cuenta en launchpad para ser capaz de colaborar con el proyecto OpenERP en su desarrollo,
+reportando errores, proponiendo tus cambios y dando retroalimentación. Por favor revisa los
+manuales de éstas dos herramientas para mayor información.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Si está en un sistema basado en Ubuntu o Debian deberás instalar <a class="reference external" href="http://bazaar.canonical.com/en/">Bazaar</a> con el siguiente comando:</p>
+<div class="last highlight-python"><pre>sudo apt-get install bzr bzrtools</pre>
+</div>
+</div>
+<div class="section" id="directorio-de-trabajo">
+<h3>Directorio de trabajo<a class="headerlink" href="#directorio-de-trabajo" title="Permalink to this headline">¶</a></h3>
+<p>Lo primero que haremos es crear el directorio de trabajo donde nuestras fuentes estarán alojadas:</p>
+<div class="highlight-python"><pre>mkdir source;cd source</pre>
+</div>
+</div>
+<div class="section" id="descarga-el-script-de-inicio">
+<h3>Descarga el Script de inicio<a class="headerlink" href="#descarga-el-script-de-inicio" title="Permalink to this headline">¶</a></h3>
+<p>Openerp te provee un Script para automatizar las tareas de crear y compartir los repositorios de su
+código fuente éste Script lo podemos obtener con el siguiente comando:</p>
+<div class="highlight-python"><pre>bzr cat -d lp:~openerp-dev/openerp-tools/trunk setup.sh | sh</pre>
+</div>
+<p>Éste comando creará dos archivos el el directorio <tt class="docutils literal"><span class="pre">source</span></tt> creado anteriormente:</p>
+<div class="highlight-python"><pre>-rw-rw-r--  1 openerp openerp 5465 2012-04-17 11:05 Makefile
+-rw-rw-r--  1 openerp openerp 2902 2012-04-17 11:05 Makefile_helper.py</pre>
+</div>
+<p>Te recomendamos leer la ayuda de las opciones disponibles con éste Script ejecutando el siguiente
+comando:</p>
+<div class="highlight-python"><pre>make help</pre>
+</div>
+</div>
+<div class="section" id="descarga-las-fuentes">
+<h3>Descarga las fuentes<a class="headerlink" href="#descarga-las-fuentes" title="Permalink to this headline">¶</a></h3>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Importante el proceso de descarga dependiendo de tu conexión a internet puede ser de hasta 1
+hora, cuando ejecutes el siguiente comando asegurate de estar conectado a internet y de poseer
+al menos 2 gb de espacio disponible en disco.</p>
+</div>
+<p>Para obtener el código fuente de la última versión estable (en éste caso la versión 7.0) ejecuta el
+siguiente comando:</p>
+<div class="highlight-python"><pre>make init-v70</pre>
+</div>
+<p>Ésto creará los siguiente directorios dentro  de <tt class="docutils literal"><span class="pre">source</span></tt> y descargará la última versión <tt class="docutils literal"><span class="pre">trunk</span></tt>
+de OpenERP y ajustará los directorios para trabajar con OpenERP V70:</p>
+<div class="highlight-python"><pre>drwxrwxr-x  3 openerp openerp 4096 2012-04-17 11:10 addons
+drwxrwxr-x  3 openerp openerp 4096 2012-04-17 11:10 misc
+drwxrwxr-x  3 openerp openerp 4096 2012-04-17 11:10 server
+drwxrwxr-x  3 openerp openerp 4096 2012-04-17 11:10 web</pre>
+</div>
+</div>
+<div class="section" id="instalando-las-dependencias">
+<h3>Instalando las dependencias<a class="headerlink" href="#instalando-las-dependencias" title="Permalink to this headline">¶</a></h3>
+<p>Algunas dependencias son necesarias para usar OpenERP. Dependiendo de tu entorno, necesitarás
+instalar los siguientes paquetes:</p>
+<div class="highlight-python"><pre>sudo apt-get install graphviz ghostscript postgresql-client \
+          python-dateutil python-feedparser python-gdata \
+          python-ldap python-libxslt1 python-lxml python-mako \
+          python-openid python-psycopg2 python-pybabel python-pychart \
+          python-pydot python-pyparsing python-reportlab python-simplejson \
+          python-tz python-vatnumber python-vobject python-webdav \
+          python-werkzeug python-xlwt python-yaml python-imaging \
+          python-matplotlib  python-unittest2 python-mock python-docutils \
+          python-jinja2 python-psutil</pre>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Si estás en un entorno donde OpenERP y el servidor de bases de datos Postgres se encuentran en
+la misma máquina deberás instalar PostgreSQL si ya lo tienes instalado omite éste comentario.:</p>
+<div class="last highlight-python"><pre>sudo apt-get install postgresql</pre>
+</div>
+</div>
+</div>
+<div class="section" id="iniciamos-el-usuario-de-base-de-datos">
+<h3>Iniciamos el usuario de base de datos<a class="headerlink" href="#iniciamos-el-usuario-de-base-de-datos" title="Permalink to this headline">¶</a></h3>
+<p>Para conectarnos a PostgreSQL requerimos contar con un usuario de Bases de Datos lo creamos con el
+siguiente comando:</p>
+<div class="highlight-python"><pre>make db-setup</pre>
+</div>
+<p>La salida que te retornará éste comando será:</p>
+<div class="highlight-python"><pre>psql: FATAL:  role "tuususariolinux" does not exist
+# setup a postgres user
+sudo su - postgres -c "createuser -s $USER"</pre>
+</div>
+<p>Si lo ejecutas por segunda vez te debería aparecer:</p>
+<div class="highlight-python"><pre># setup a postgres user
+sudo su - postgres -c "createuser -s $USER"
+createuser: creation of new role failed: ERROR:  role "tuusuariolinux" already exists</pre>
+</div>
+<p>Si ésto sucede todo está bien el comando ha funcionado correctamente.</p>
+</div>
+<div class="section" id="ejecutamos-el-servidor">
+<h3>Ejecutamos el servidor<a class="headerlink" href="#ejecutamos-el-servidor" title="Permalink to this headline">¶</a></h3>
+<p>Con éste comando ponemos a correr el servidor, recordemos que OpenERP es un servicio siempre
+corriendo en el sistema por lo que veremos una serie de salidas una vez ejecutemos éste comando:</p>
+<div class="highlight-python"><pre>make server</pre>
+</div>
+</div>
+<div class="section" id="probamos-que-todo-este-en-orden">
+<h3>Probamos que todo esté en orden<a class="headerlink" href="#probamos-que-todo-este-en-orden" title="Permalink to this headline">¶</a></h3>
+<p>Para probar que todo está en orden podemos abrir nuestro navegador en el siguiente enlace
+<a class="reference external" href="http://localhost:8069/">http://localhost:8069/</a> debería aparecerte la ventana de creación de bases de datos.</p>
+</div>
+</div>
+<div class="section" id="opciones-de-la-linea-de-comandos">
+<h2>Opciones de la Línea de comandos<a class="headerlink" href="#opciones-de-la-linea-de-comandos" title="Permalink to this headline">¶</a></h2>
+<p>Usando el comando abajo destro del directorio <tt class="docutils literal"><span class="pre">server</span></tt> podemos ver todas las opciones posibles
+para correr el servidor OpenERP:</p>
+<div class="highlight-python"><pre>./openerp-server --help</pre>
+</div>
+</div>
+<div class="section" id="configuraciones">
+<h2>Configuraciones<a class="headerlink" href="#configuraciones" title="Permalink to this headline">¶</a></h2>
+<p id="getting-started-configuration-link">Un archivo de configuración estará disponible una vez arranques el servidor en:</p>
+<div class="highlight-python"><pre>* ``~/.openerp_serverrc``</pre>
+</div>
+<p>Ya estamos listos para comenzar a trabajar.</p>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+</div>
+</div>
+<footer class="footer">
+  <div class="bs3">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#" id="gototop">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2013, Vauxoo.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.<br/>
+    </p>
+  </div>
+  </div>
+</footer>
+  </body>
+</html>
