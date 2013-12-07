@@ -44,6 +44,8 @@ clean:
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	touch $(BUILDDIR)/.nojekill
+	@echo "Created file to configure correctly th githubpage"
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
