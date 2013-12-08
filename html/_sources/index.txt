@@ -13,6 +13,16 @@ Contents:
 
    openerpversionall
 
+.. code-block:: python
+    
+    class algo:
+        algo.otro
+
+.. literalinclude::
+    
+    class algo:
+        algo.otro
+
 Indices and tables
 ==================
 

@@ -24,7 +24,7 @@ cuenta en launchpad para ser capaz de colaborar con el proyecto OpenERP en su de
 reportando errores, proponiendo tus cambios y dando retroalimentación. Por favor revisa los
 manuales de éstas dos herramientas para mayor información.
 
-.. note::
+.. tip::
 
     Si está en un sistema basado en Ubuntu o Debian deberás instalar Bazaar_ con el siguiente comando::
         
@@ -93,7 +93,7 @@ instalar los siguientes paquetes::
             python-matplotlib  python-unittest2 python-mock python-docutils \
             python-jinja2 python-psutil
 
-.. note::
+.. tip::
 
     Si estás en un entorno donde OpenERP y el servidor de bases de datos Postgres se encuentran en
     la misma máquina deberás instalar PostgreSQL si ya lo tienes instalado omite éste comentario.::
