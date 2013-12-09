@@ -14,7 +14,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Manuales Públicos - Vauxoo’s documentation! &mdash; Documentacion Publica Vauxoo - Openerp</title>
+    <title>Cómo trabajar con hamachi &mdash; Documentacion Publica Vauxoo - Openerp</title>
     
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -37,8 +37,8 @@
     <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
     <script type="text/javascript" src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
-    <link rel="top" title="Documentacion Publica Vauxoo - Openerp" href="#" />
-    <link rel="next" title="Iniciar tu entorno OpenERP" href="openerpversionall.html" />
+    <link rel="top" title="Documentacion Publica Vauxoo - Openerp" href="index.html" />
+    <link rel="prev" title="Iniciar tu entorno OpenERP" href="openerpversionall.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -57,7 +57,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Manuales Publicos Vauxoo</a>
+        <a class="navbar-brand" href="index.html">Manuales Publicos Vauxoo</a>
       </div>
 
           <ul class="nav navbar-nav">
@@ -77,7 +77,7 @@
               
                 
   <li><a href="openerpversionall.html"
-         title="Next Chapter: Iniciar tu entorno OpenERP">Next &raquo;</a></li>
+         title="Previous Chapter: Iniciar tu entorno OpenERP">&laquo; Previous</a></li>
               
             
           </ul>
@@ -107,27 +107,30 @@
           <li>
 <h4 class="h4-padleft">Table of Content</h4>
   <ul class="localtoc"><ul>
-<li><a class="reference internal" href="#">Manuales Públicos - Vauxoo&#8217;s documentation!</a><ul>
+<li><a class="reference internal" href="#">Cómo trabajar con hamachi</a><ul>
+<li><a class="reference internal" href="#en-linux">En Linux.</a></li>
+<li><a class="reference internal" href="#en-windows-7">En Windows 7.</a></li>
+<li><a class="reference internal" href="#en-windows-xp">En Windows XP.</a></li>
+<li><a class="reference internal" href="#en-windows-server">En Windows Server.</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
 </ul>
 </ul>
-<h4 class="h4-padleft">Next Topic</h4>
+<h4 class="h4-padleft">Previous Topic</h4>
   <ul class="localtoc">
     <ul class="nav">
     <li>
     <a href="openerpversionall.html"
          class="reference internal"
-         title="Next Chapter: Iniciar tu entorno OpenERP">Iniciar tu entorno OpenERP</a>
+         title="Previous Chapter: Iniciar tu entorno OpenERP">Iniciar tu entorno OpenERP</a>
     </li>
   </ul>
-</ul>
+  </ul>
 <h4 class="h4-padleft">This Page</h4>
  <ul class="localtoc">
     <ul class="nav">
      <li>
-  <a href="_sources/index.txt"
+  <a href="_sources/hamachi.txt"
      class="reference internal"
      rel="nofollow">Show Source</a></li>
 </ul>
@@ -138,34 +141,46 @@
     
     <div class="col-md-9">
       
-  <div class="section" id="manuales-publicos-vauxoo-s-documentation">
-<h1>Manuales Públicos - Vauxoo&#8217;s documentation!<a class="headerlink" href="#manuales-publicos-vauxoo-s-documentation" title="Permalink to this headline">¶</a></h1>
-<p>Contents:</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="openerpversionall.html">Iniciar tu entorno OpenERP</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="openerpversionall.html#instalacion-desde-las-fuentes">Instalación desde las fuentes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="openerpversionall.html#opciones-de-la-linea-de-comandos">Opciones de la Línea de comandos</a></li>
-<li class="toctree-l2"><a class="reference internal" href="openerpversionall.html#configuraciones">Configuraciones</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="hamachi.html">Cómo trabajar con hamachi</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="hamachi.html#en-linux">En Linux.</a></li>
-<li class="toctree-l2"><a class="reference internal" href="hamachi.html#en-windows-7">En Windows 7.</a></li>
-<li class="toctree-l2"><a class="reference internal" href="hamachi.html#en-windows-xp">En Windows XP.</a></li>
-<li class="toctree-l2"><a class="reference internal" href="hamachi.html#en-windows-server">En Windows Server.</a></li>
-</ul>
-</li>
-</ul>
+  <div class="section" id="como-trabajar-con-hamachi">
+<h1>Cómo trabajar con hamachi<a class="headerlink" href="#como-trabajar-con-hamachi" title="Permalink to this headline">¶</a></h1>
+<p>Hamachi es un servicio para la creación de redes VPN.</p>
+<div class="section" id="en-linux">
+<h2>En Linux.<a class="headerlink" href="#en-linux" title="Permalink to this headline">¶</a></h2>
+<p>Todos los comandos acá indicados son ejecutados en una consola sin privilegios de root, es lo que significa el hecho de que comienzan con el símbolo &#8220;$&#8221;.</p>
+<p>Este símbolo no va incluído en ningún comando es solo para referencia.</p>
+<p>Descargalo:</p>
+<div class="highlight-python"><pre>$ wget -c https://secure.logmein.com/labs/logmein-hamachi_2.1.0.81-1_amd64.deb</pre>
 </div>
+<p>Instala la dependencia:</p>
+<div class="highlight-python"><pre>$ sudo apt-get install lsb-core</pre>
 </div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><a class="reference internal" href="genindex.html"><em>Index</em></a></li>
-<li><a class="reference internal" href="py-modindex.html"><em>Module Index</em></a></li>
-<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
-</ul>
+<p>Instala el paquete:</p>
+<div class="highlight-python"><pre>$ sudo dpkg -i logmein-hamachi*.deb</pre>
+</div>
+<p>Haz login contra el servidor VPN:</p>
+<div class="highlight-python"><pre>$ sudo hamachi login</pre>
+</div>
+<p>Agrega tu nick, para poder indentificar tu máquina en la red:</p>
+<div class="highlight-python"><pre>$ sudo hamachi set-nick [TU-NOMBRE-DE-EQUIPO]</pre>
+</div>
+<p>Solicita acceso al usuario hamachi que administra la red, en
+el caso durante el proceso de desarrollo es con la cuenta de Nhomar:</p>
+<div class="highlight-python"><pre>$ sudo hamachi attach-net nhomar@gmail.com</pre>
+</div>
+<p>Envía un correo a <a class="reference external" href="mailto:nhomar&#37;&#52;&#48;vauxoo&#46;com">nhomar<span>&#64;</span>vauxoo<span>&#46;</span>com</a> para asegurarte que te apruebe.</p>
+</div>
+<div class="section" id="en-windows-7">
+<h2>En Windows 7.<a class="headerlink" href="#en-windows-7" title="Permalink to this headline">¶</a></h2>
+<p>TODO</p>
+</div>
+<div class="section" id="en-windows-xp">
+<h2>En Windows XP.<a class="headerlink" href="#en-windows-xp" title="Permalink to this headline">¶</a></h2>
+<p>TODO</p>
+</div>
+<div class="section" id="en-windows-server">
+<h2>En Windows Server.<a class="headerlink" href="#en-windows-server" title="Permalink to this headline">¶</a></h2>
+<p>TODO</p>
+</div>
 </div>
 
 
