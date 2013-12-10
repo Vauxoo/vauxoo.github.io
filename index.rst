@@ -14,6 +14,7 @@ Contents:
    openerpversionall
    bazaar
    hamachi
+   editors
 
 Indices and tables
 ==================
