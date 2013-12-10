@@ -161,7 +161,7 @@ Informando tu usuario Launchpad
 ===============================
 
 Antes de hacer push, y una vez lista tu llave ssh con launchpad deberás informar localmente cual es
-es tu usuario en launchpad, eso lo logramos con el siguiente comando.::
+es tu usuario en dicha plataforma, eso lo logramos con el siguiente comando.::
 
     $launchpad-login tutusuariolaunchpad
 
