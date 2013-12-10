@@ -15,6 +15,7 @@ Contents:
    bazaar
    hamachi
    editors
+   postgres
 
 Indices and tables
 ==================
