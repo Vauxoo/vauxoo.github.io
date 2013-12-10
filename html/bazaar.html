@@ -1,0 +1,415 @@
+
+
+  
+  
+ 
+  
+ 
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Bazaar - Sistema de gestión de versiones. &mdash; Documentacion Publica Vauxoo - Openerp</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="http://nhomar.github.io/bootswatch/vauxoo/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="Documentacion Publica Vauxoo - Openerp" href="index.html" />
+    <link rel="next" title="Cómo trabajar con hamachi" href="hamachi.html" />
+    <link rel="prev" title="Iniciar tu entorno OpenERP" href="openerpversionall.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="robots" content="noindex" />
+
+  </head>
+  <body>
+
+  <div id="navbar" class="bs3 navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Manuales Publicos Vauxoo</a>
+      </div>
+
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+            
+              
+              
+            
+            
+            
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="divider-vertical"></li>
+            
+              
+                
+  <li><a href="openerpversionall.html"
+         title="Previous Chapter: Iniciar tu entorno OpenERP">&laquo; Previous</a></li>
+  <li><a href="hamachi.html"
+         title="Next Chapter: Cómo trabajar con hamachi">Next &raquo;</a></li>
+              
+            
+          </ul>
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+    </div>
+  </div>
+
+<div class="bs3 bs3-form-bg">
+<div class="bgvauxoo bg-fixed">
+</div>
+<div style="background:transparent;">
+<div class="container">
+  <div class="row">
+    
+      <div class="col-md-3">
+        <div id="sidebar" class="nav bs-sidenav">
+          
+          <li>
+<h4 class="h4-padleft">Table of Content</h4>
+  <ul class="localtoc"><ul>
+<li><a class="reference internal" href="#">Bazaar - Sistema de gestión de versiones.</a><ul>
+<li><a class="reference internal" href="#instalacion">Instalación.</a></li>
+<li><a class="reference internal" href="#presentese">Preséntese.</a></li>
+<li><a class="reference internal" href="#ponga-archivos-bajo-control-de-versiones">Ponga archivos bajo control de versiones.</a></li>
+<li><a class="reference internal" href="#haciendo-cambios-en-sus-archivos">Haciendo cambios en sus archivos.</a></li>
+<li><a class="reference internal" href="#un-vistazo-el-log-de-revisiones">Un vistazo el log de revisiones.</a></li>
+<li><a class="reference internal" href="#launchpad">Launchpad.</a></li>
+<li><a class="reference internal" href="#crear-cuenta-en-launchpad">Crear cuenta en Launchpad.</a></li>
+<li><a class="reference internal" href="#registrar-clave-ssh-en-la-cuenta-de-launchpad">Registrar clave SSH en la cuenta de Launchpad.</a></li>
+<li><a class="reference internal" href="#publicando-su-branch-con-launchpad">Publicando su branch con Launchpad.</a></li>
+<li><a class="reference internal" href="#creando-su-propia-copia-de-otro-branch">Creando su propia copia de otro branch</a></li>
+<li><a class="reference internal" href="#comandos">Comandos.</a></li>
+<li><a class="reference internal" href="#crear-un-grupo-en-launchpad">Crear un grupo en launchpad.</a></li>
+<li><a class="reference internal" href="#crear-un-proyecto-en-launchpad">Crear un proyecto en launchpad.</a></li>
+<li><a class="reference internal" href="#crear-blueprints">Crear blueprints.</a></li>
+<li><a class="reference internal" href="#reportar-bug">Reportar bug.</a></li>
+<li><a class="reference internal" href="#proponer-merge">Proponer merge.</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+<h4 class="h4-padleft">Previous Topic</h4>
+  <ul class="localtoc">
+    <ul class="nav">
+    <li>
+    <a href="openerpversionall.html"
+         class="reference internal"
+         title="Previous Chapter: Iniciar tu entorno OpenERP">Iniciar tu entorno OpenERP</a>
+    </li>
+  </ul>
+  </ul>
+<h4 class="h4-padleft">Next Topic</h4>
+  <ul class="localtoc">
+    <ul class="nav">
+    <li>
+    <a href="hamachi.html"
+         class="reference internal"
+         title="Next Chapter: Cómo trabajar con hamachi">Cómo trabajar con hamachi</a>
+    </li>
+  </ul>
+</ul>
+<h4 class="h4-padleft">This Page</h4>
+ <ul class="localtoc">
+    <ul class="nav">
+     <li>
+  <a href="_sources/bazaar.txt"
+     class="reference internal"
+     rel="nofollow">Show Source</a></li>
+</ul>
+</ul>
+</li>
+        </div>
+      </div>
+    
+    <div class="col-md-9">
+      
+  <div class="section" id="bazaar-sistema-de-gestion-de-versiones">
+<h1>Bazaar - Sistema de gestión de versiones.<a class="headerlink" href="#bazaar-sistema-de-gestion-de-versiones" title="Permalink to this headline">¶</a></h1>
+<p>Es un sistema de control de versiones distribuido con el objetivo de facilitar que varias personas puedan trabajar de forma conjunta en proyectos de software.</p>
+<p>Permite montar archivos bajo el control de versiones, es decir, registrar cambios en ellos, examinar su trabajo, publicarlo y enviar su trabajo para que sea integrado en el trunk de un proyecto.</p>
+<div class="section" id="instalacion">
+<h2>Instalación.<a class="headerlink" href="#instalacion" title="Permalink to this headline">¶</a></h2>
+<p>Lo instalas como cualquier paquete en Ubuntu:</p>
+<div class="highlight-python"><pre>$sudo apt-get install bzr</pre>
+</div>
+</div>
+<div class="section" id="presentese">
+<h2>Preséntese.<a class="headerlink" href="#presentese" title="Permalink to this headline">¶</a></h2>
+<p>Antes de empezar a trabajar, es conveniente que le diga a Bazaar quién es usted. De ese modo su trabajo será identificando correctamente en los logs de revisión.</p>
+<p>Utilice su nombre y dirección de email en lugar de John Doe, teclee:</p>
+<div class="highlight-python"><pre>$bzr whoami "John Doe &lt;john.doe@gmail.com&gt;"</pre>
+</div>
+<p>Bazaar creará o modificará ahora un archivo de configuración, incluyendo su nombre y dirección de email.</p>
+<p>Ahora compruebe que su nombre y dirección de email se han registrado correctamente:</p>
+<div class="highlight-python"><pre>$bzr whoami
+&gt;&gt; John Doe &lt;john.doe@gmail.com&gt;</pre>
+</div>
+</div>
+<div class="section" id="ponga-archivos-bajo-control-de-versiones">
+<h2>Ponga archivos bajo control de versiones.<a class="headerlink" href="#ponga-archivos-bajo-control-de-versiones" title="Permalink to this headline">¶</a></h2>
+<p>Vamos a crear un directorio y algunos archivos para utilizar con Bazaar:</p>
+<div class="highlight-python"><pre>$mkdir miproyecto
+$cd miproyecto
+$mkdir images
+$touch hola.py calculo.py images/lista.txt</pre>
+</div>
+<p>Ahora haremos que Bazaar se inicialize en el directorio de su proyecto:</p>
+<div class="highlight-python"><pre>$bzr init
+&gt;&gt; Creado un standalone tree (formaot: 2a)</pre>
+</div>
+<p>Si parece que no ha ocurrido nada no se preocupe. Bazaar ha creado un branch donde guardará sus archivos y su histórico de revisiones.</p>
+<p>El siguiente paso es decirle a Bazaar a que archivos desea seguirles la pista. Ejecutando <em>bzr add</em> agregará recursivamente todos los elementos dentro del proyecto:</p>
+<div class="highlight-python"><pre>$bzr add
+&gt;&gt; adding calculo.py
+&gt;&gt; adding hola.py
+&gt;&gt; adding images
+&gt;&gt; adding images/lista.txt</pre>
+</div>
+<p>A continuación haga un <em>commit</em>  de los archivos agregados a su branch. Incluye un mensaje para explicar porque se realiza el <em>commit</em>:</p>
+<div class="highlight-python"><pre>$bzr commit -m "Importación inicial"
+&gt;&gt; Committing to: /home/yani/Escritorio/miproyecto/
+&gt;&gt; añadido calculo.py
+&gt;&gt; añadido hola.py
+&gt;&gt; añadido images
+&gt;&gt; añadido images/lista.txt
+&gt;&gt; Committed revision 1.</pre>
+</div>
+<p>Como Bazaar es un sistema de control de versiones distribuido, no necesita conectar con un servidor central para hacer el commit. Bazaar guarda su branch y todos sus commits dentro del directorio con el que está trabajando, busque el subdirectorio .bzr.</p>
+</div>
+<div class="section" id="haciendo-cambios-en-sus-archivos">
+<h2>Haciendo cambios en sus archivos.<a class="headerlink" href="#haciendo-cambios-en-sus-archivos" title="Permalink to this headline">¶</a></h2>
+<p>Vamos a cambiar un archivo e introduciremos ese cambio en su branch.
+Edite <em>hola.py</em> en su editor favorito y luego compruebe que ha hecho:</p>
+<div class="highlight-python"><pre>$bzr diff
+&gt;&gt; === modified file 'hola.py'
+&gt;&gt; --- hola.py     2013-01-14 16:03:54 +0000
+&gt;&gt; +++ hola.py     2013-01-14 16:11:11 +0000
+&gt;&gt; @@ -0,0 +1,1 @@
+&gt;&gt; +print "Hola Mundo"</pre>
+</div>
+<p>Añada su trabajo al branch de Bazaar:</p>
+<div class="highlight-python"><pre>$bzr ci -m "Añadida la primera línea de texto"
+&gt;&gt; Committing to: /home/yani/Escritorio/miproyecto/
+&gt;&gt; modificado hola.py
+&gt;&gt; Committed revision 2.</pre>
+</div>
+</div>
+<div class="section" id="un-vistazo-el-log-de-revisiones">
+<h2>Un vistazo el log de revisiones.<a class="headerlink" href="#un-vistazo-el-log-de-revisiones" title="Permalink to this headline">¶</a></h2>
+<p>Consultar el log de revisiones:</p>
+<div class="highlight-python"><pre>$bzr log
+&gt;&gt; revno: 2
+&gt;&gt; committer: Yanina Aular &lt;yanina.aular@vauxoo.com&gt;*
+&gt;&gt; branch nick: miproyecto*
+&gt;&gt; timestamp: Mon 2013-01-14 11:42:29 -0530*
+&gt;&gt; message:*
+&gt;&gt; Añadida la primera línea de texto*
+&gt;&gt; revno: 1*
+&gt;&gt; committer: Yanina Aular &lt;yanina.aular@vauxoo.com&gt;*
+&gt;&gt; branch nick: miproyecto*
+&gt;&gt; timestamp: Mon 2013-01-14 11:33:54 -0530*
+&gt;&gt; message:
+&gt;&gt; Importacion inicial</pre>
+</div>
+</div>
+<div class="section" id="launchpad">
+<h2>Launchpad.<a class="headerlink" href="#launchpad" title="Permalink to this headline">¶</a></h2>
+<p>Launchpad es una suite de herramientas de desarrollo y hosting para proyectos de software libre. Puede utilizarlo para publicar su branch.</p>
+<p>Si no dispone de una cuenta de Launchpad, siga la guía de registro de cuentas y registre una clave SSH en su nueva cuenta de Launchpad.</p>
+</div>
+<div class="section" id="crear-cuenta-en-launchpad">
+<h2>Crear cuenta en Launchpad.<a class="headerlink" href="#crear-cuenta-en-launchpad" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://help.launchpad.net/CreatingYourLaunchpadAccount">https://help.launchpad.net/CreatingYourLaunchpadAccount</a></p>
+</div>
+<div class="section" id="registrar-clave-ssh-en-la-cuenta-de-launchpad">
+<h2>Registrar clave SSH en la cuenta de Launchpad.<a class="headerlink" href="#registrar-clave-ssh-en-la-cuenta-de-launchpad" title="Permalink to this headline">¶</a></h2>
+<p>Instala OpenSSH:</p>
+<div class="highlight-python"><pre>$sudo apt-get install openssh-client</pre>
+</div>
+<p>Genera la clave:</p>
+<div class="highlight-python"><pre>$ssh-keygen -t rsa</pre>
+</div>
+<ul class="simple">
+<li>Presiona intro para aceptar el nombre por defecto</li>
+<li>Introduce la contraseña</li>
+</ul>
+<p>Con esto se genera en el directorio /home/usuario/.ssh/ una pareja de claves, id_rsa la clave privada y id_rsa.pub la clave pública. La clave privada se quedará en tu equipo y la pública hay que subirla a tu perfil de launchpad. Logeate en www.launchpad.net con tu usuario y accede a tu página para editar la información de SSH keys.</p>
+<div class="figure">
+<img alt="_images/sshkey01.png" src="_images/sshkey01.png" />
+</div>
+<p>Copia en esa ventana la información que hay dentro del fichero /home/usuario/.ssh/id_rsa.pub y haz click en el botón Import Public Key para terminar.</p>
+<div class="figure">
+<img alt="_images/sshkey02.png" src="_images/sshkey02.png" />
+</div>
+</div>
+<div class="section" id="publicando-su-branch-con-launchpad">
+<h2>Publicando su branch con Launchpad.<a class="headerlink" href="#publicando-su-branch-con-launchpad" title="Permalink to this headline">¶</a></h2>
+<p>Launchpad es una suite de herramientas de desarrollo y hosting para proyectos de software libre. Puede utilizarlo para publicar su branch.:</p>
+<div class="highlight-python"><pre>$bzr push lp:~usuario-creado/+junk/miproyecto</pre>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">+junk significa que este branch no está asociado con ningún proyecto concreto en Launchpad.</p>
+</div>
+<p>También puede ver información sobre su branch, histórico de revisiones incluido, en <a class="reference external" href="https://code.launchpad.net/~usuario-creado/+junk/miproyecto">https://code.launchpad.net/~usuario-creado/+junk/miproyecto</a></p>
+</div>
+<div class="section" id="creando-su-propia-copia-de-otro-branch">
+<h2>Creando su propia copia de otro branch<a class="headerlink" href="#creando-su-propia-copia-de-otro-branch" title="Permalink to this headline">¶</a></h2>
+<p>Ahora cualquiera podrá crear su propia copia de su branch tecleando:</p>
+<div class="highlight-python"><pre>$bzr branch lp:~usuario-creado/+junk/miproyecto</pre>
+</div>
+<p>Para trabajar con el código de otra persona, tendrá que hacer su propia copia de su branch. Vamos a coger un ejemplo real, la interfaz GTK de Bazaar:</p>
+<div class="highlight-python"><pre>$bzr branch http://bazaar.launchpad.net/~bzr/bzr-gtk/trunk bzr-gtk.john
+&gt;&gt; Branched 292 revision(s).</pre>
+</div>
+<p>Bazaar descargará todos los archivos y el histórico de revisiones completo del trunk branch del proyecto bzr-gtk y creará una copia llamada bzr-gtk.john.</p>
+<p>Ahora dispone de su propia copia del branch y puede enviar cambios con o sin una conexión de red. Puede compartir su branch en cualquier momento publicándolo, y si el equipo de bzr-gtk desea utilizar su trabajo, Bazaar les facilita integrar su branch dentro de su trunk.</p>
+</div>
+<div class="section" id="comandos">
+<h2>Comandos.<a class="headerlink" href="#comandos" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first"><strong>bzr add o bzr add [FILE..]</strong>: Adiciona el archivo o directorio.</p>
+</li>
+<li><p class="first"><strong>bzr revert o bzr revert [FILE..]</strong>: Deshace todos los cambios en el archivo especificado y devuelve al estado en que estaba después de la última actualización.</p>
+</li>
+<li><p class="first"><strong>bzr annotate [FILE..]</strong>: Ver el origen de cada línea en el archivo especificado.</p>
+</li>
+<li><p class="first"><strong>bzr revno o bzr revno[FILE..]</strong>: Número de revisiones del branch.</p>
+</li>
+<li><p class="first"><strong>bzr log</strong></p>
+<blockquote>
+<div><p><strong>bzr log -r x</strong></p>
+<p><strong>bzr log -r x..y</strong> (siempre y cuando x &lt; y y sean números enteros)</p>
+<p><strong>bzr log [FILE..]</strong>: Ver los cambios hechos en las revisiones o archivos señalados.</p>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>bzr push o bzr push [LOCATION]</strong>: Actualiza un espejo de este branch, es decir, los cambios hechos localmente se actualizan en la nube de la localización especificada.</p>
+</li>
+<li><p class="first"><strong>bzr pull o bzr pull [LOCATION]</strong>: Activo este branch en un espejo de otro branch, es decir, actualizo los cambios o revisiones de la nube a mi branch local.</p>
+</li>
+<li><p class="first"><strong>bzr diff</strong>: Mostrar todos los cambios no confirmados</p>
+</li>
+<li><p class="first"><strong>bzr diff -r X</strong>: Mostrar todos los cambios no confirmados desde la revision X</p>
+</li>
+<li><p class="first"><strong>bzr merge [FROMLOCATION] or bzr merge [FROMLOCATION] [TOLOCATION]</strong>: Fusiona dos branches.</p>
+</li>
+<li><p class="first"><strong>bzr rm [FILE..]</strong>: Borra el archivo del branch</p>
+</li>
+<li><p class="first"><strong>bzr mv [FILE..] [LOCATION..]</strong>: Mover un archivo dentro del branch</p>
+</li>
+<li><p class="first"><strong>bzr mkdir</strong>: Crear un directorio en el branch</p>
+</li>
+<li><p class="first"><strong>bzr uncommit</strong>: Permite devolver la confirmación de un cambio.</p>
+</li>
+<li><p class="first"><strong>bzr uncommit -r x</strong>: Si quiero revertir los cambios que he hecho hasta ahora en la revision x</p>
+</li>
+<li><p class="first"><strong>bzr launchpad-login usuario-creado</strong>: Si usted tiene una cuenta en Launchpad y quieren confirmar los cambios allí, es necesario especificar el nombre de usuario de Launchpad.</p>
+</li>
+<li><p class="first"><strong>bzr status o bzr stat</strong>: Ver el estado del branch, tiene archivos agregados, modificados o borrados sin confirmar.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="crear-un-grupo-en-launchpad">
+<h2>Crear un grupo en launchpad.<a class="headerlink" href="#crear-un-grupo-en-launchpad" title="Permalink to this headline">¶</a></h2>
+<p>Utilice un equipo para agrupar personas involucradas en una tarea en común. Por ejemplo, un equipo puede ser el responsable de un proyecto o el editor de un paquete para un idioma en particular.</p>
+</div>
+<div class="section" id="crear-un-proyecto-en-launchpad">
+<h2>Crear un proyecto en launchpad.<a class="headerlink" href="#crear-un-proyecto-en-launchpad" title="Permalink to this headline">¶</a></h2>
+<p>Los proyectos en launchpad son compartidos por todas las comunidades para fomentar la colaboración entre los desarrolladores, traductores, empacadores, y otros colaboradores.</p>
+</div>
+<div class="section" id="crear-blueprints">
+<h2>Crear blueprints.<a class="headerlink" href="#crear-blueprints" title="Permalink to this headline">¶</a></h2>
+<p>Al crear un proyecto, se puede agregar blueprints.</p>
+<p>Un blueprint es una simple especificación. En él se describe una idea - como función o proceso -  y rastrea metadatos suficientes para mostrar su estado de ejecución y quién está involucrado.</p>
+<p>Echemos un vistazo a la información que constituye un blueprint:</p>
+<ul class="simple">
+<li>Título y resumen: algunas ideas son lo suficientemente simples para expresarlas plenamente en el resumen.</li>
+<li>Los elementos de trabajo: los pasos necesarios para completar el trabajo del blueprint, junto con el estado de cada paso.</li>
+<li>Enlace a la información: esto puede ser cualquier URL y suele ser una página wiki donde está plenamente la idea o característica explorada. Launchpad no proporciona una instalación wiki.</li>
+<li>La gente: ¿quién está trabajando en este proyecto? Si lo desea, puede realizar un seguimiento de la persona redacción del anteproyecto, el cesionario y el revisor.</li>
+<li>Redacción de estado: ¿Se ha discutido bien esto? ¿Sigue siendo sólo una idea o está listo para código?.</li>
+<li>Estado de la implementación.</li>
+<li>Errores relacionados: enlace a los informes de errores seguidos en Launchpad que pueden solucionarse o que son afectados por esta función.</li>
+<li>Ramas Código: mientras que usted está trabajando en la implementación, puede cargar / registrar sus ramas de código de Launchpad y enlace a los mismos desde el blueprint.</li>
+<li>Suscriptores: la gente puede suscribirse para recibir alertas cuando cambia el blueprint.</li>
+<li>Dependencias: Blueprints implementados antes de éste.</li>
+</ul>
+</div>
+<div class="section" id="reportar-bug">
+<h2>Reportar bug.<a class="headerlink" href="#reportar-bug" title="Permalink to this headline">¶</a></h2>
+<p>Ir al link del proyecto. Por ejemplo: <a class="reference external" href="https://launchpad.net/openerp-venezuela-localization">https://launchpad.net/openerp-venezuela-localization</a>.</p>
+<p>Buscar la opción de reportar Bug.</p>
+</div>
+<div class="section" id="proponer-merge">
+<h2>Proponer merge.<a class="headerlink" href="#proponer-merge" title="Permalink to this headline">¶</a></h2>
+<p>Ir al branch relacionado con el proyecto, por ejemplo: <a class="reference external" href="https://code.launchpad.net/~openerp-venezuela/openerp-venezuela-localization/6.1">https://code.launchpad.net/~openerp-venezuela/openerp-venezuela-localization/6.1</a></p>
+<p>Buscar la opción Propose for merging</p>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+</div>
+</div>
+<footer class="footer">
+  <div class="bs3">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#" id="gototop">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2013, Vauxoo.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.<br/>
+    </p>
+  </div>
+  </div>
+</footer>
+  </body>
+</html>

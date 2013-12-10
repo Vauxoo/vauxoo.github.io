@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    openerpversionall
+   bazaar
    hamachi
 
 Indices and tables
