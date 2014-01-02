@@ -16,6 +16,7 @@ Contents:
    hamachi
    editors
    postgres
+   vauxoo_training_format
 
 Indices and tables
 ==================

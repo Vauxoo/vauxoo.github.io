@@ -13,7 +13,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>PostgreSQL - Resolucion de Problemas. &mdash; Documentacion Publica Vauxoo - Openerp</title>
+    <title>Web Training. &mdash; Documentacion Publica Vauxoo - Openerp</title>
     
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -37,8 +37,7 @@
     <script type="text/javascript" src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
     <link rel="top" title="Documentacion Publica Vauxoo - Openerp" href="index.html" />
-    <link rel="next" title="Web Training." href="vauxoo_training_format.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="editors.html" />
+    <link rel="prev" title="PostgreSQL - Resolucion de Problemas." href="postgres.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -76,10 +75,8 @@
             
               
                 
-  <li><a href="editors.html"
-         title="Previous Chapter: <no title>">&laquo; Previous</a></li>
-  <li><a href="vauxoo_training_format.html"
-         title="Next Chapter: Web Training.">Next &raquo;</a></li>
+  <li><a href="postgres.html"
+         title="Previous Chapter: PostgreSQL - Resolucion de Problemas.">&laquo; Previous</a></li>
               
             
           </ul>
@@ -109,8 +106,13 @@
           <li>
 <h4 class="h4-padleft">Table of Content</h4>
   <ul class="localtoc"><ul>
-<li><a class="reference internal" href="#">PostgreSQL - Resolucion de Problemas.</a><ul>
-<li><a class="reference internal" href="#caso-1-el-usuario-nix-no-se-llama-openerp">Caso 1: El usuario *nix no se llama openerp</a></li>
+<li><a class="reference internal" href="#">Web Training.</a><ul>
+<li><a class="reference internal" href="#modulos-web">Módulos Web.</a><ul>
+<li><a class="reference internal" href="#conocimiento-base">Conocimiento Base.</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#openerp-modulos-website">Openerp Módulos Website.</a></li>
+<li><a class="reference internal" href="#herramientas-para-programadores-openerp">Herramientas para programadores OpenERP.</a></li>
 </ul>
 </li>
 </ul>
@@ -119,27 +121,17 @@
   <ul class="localtoc">
     <ul class="nav">
     <li>
-    <a href="editors.html"
+    <a href="postgres.html"
          class="reference internal"
-         title="Previous Chapter: <no title>"><no title></a>
+         title="Previous Chapter: PostgreSQL - Resolucion de Problemas.">PostgreSQL - Resolucion de Problemas...</a>
     </li>
   </ul>
   </ul>
-<h4 class="h4-padleft">Next Topic</h4>
-  <ul class="localtoc">
-    <ul class="nav">
-    <li>
-    <a href="vauxoo_training_format.html"
-         class="reference internal"
-         title="Next Chapter: Web Training.">Web Training.</a>
-    </li>
-  </ul>
-</ul>
 <h4 class="h4-padleft">This Page</h4>
  <ul class="localtoc">
     <ul class="nav">
      <li>
-  <a href="_sources/postgres.txt"
+  <a href="_sources/vauxoo_training_format.txt"
      class="reference internal"
      rel="nofollow">Show Source</a></li>
 </ul>
@@ -150,48 +142,45 @@
     
     <div class="col-md-9">
       
-  <div class="section" id="postgresql-resolucion-de-problemas">
-<h1>PostgreSQL - Resolucion de Problemas.<a class="headerlink" href="#postgresql-resolucion-de-problemas" title="Permalink to this headline">¶</a></h1>
-<p>El manual anterior está diseñado para que todo funcione con un usuario *nix llamado <cite>openerp</cite> si
-no es así acá algunas soluciones a los problemas.</p>
-<div class="section" id="caso-1-el-usuario-nix-no-se-llama-openerp">
-<h2>Caso 1: El usuario *nix no se llama openerp<a class="headerlink" href="#caso-1-el-usuario-nix-no-se-llama-openerp" title="Permalink to this headline">¶</a></h2>
-<div class="admonition tip">
-<p class="first admonition-title">Tip</p>
-<p class="last">(por ej, lo descargué todo en mi máquina local y mi usuario se llama <cite>pedro</cite>)</p>
-</div>
-<p><strong>Solución:</strong></p>
-<p>Deberás crear manualmente el usuario PostgreSQL <cite>pedro</cite>:</p>
-<div class="highlight-python"><pre>$sudo su -c postgres "createuser -s pedro"
-&gt;&gt;Responde las preguntas con el password con No - Si - No</pre>
-</div>
-<p>Acabamos de crear un usuario postgres que no es super user, se llama como tu usuario *nix y puede
-crear bases de datos es el ususario que utilizaremos para nuestros desarrollos.</p>
-<blockquote>
-<div><ul class="simple">
-<li><strong>Situación A: Postgres 8.4 (Ubuntu 12.04)</strong></li>
+  <div class="section" id="web-training">
+<h1>Web Training.<a class="headerlink" href="#web-training" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="modulos-web">
+<h2>Módulos Web.<a class="headerlink" href="#modulos-web" title="Permalink to this headline">¶</a></h2>
+<p>Capacitación para manejar el nuevo framework JavaScript, que te permitirá modificar y/o mejorar el
+comportamiento original del Cliente Web de OpenERP y agregarle características a los widgets
+originales, Modificar el Punto de Venta (casi totalmente escrito en Java Script) y mejorar su
+comportamiento a través de módulos externos como lo hacemos con los módulos del lado del servidor
+para los objetos de negocio.</p>
+<div class="section" id="conocimiento-base">
+<h3>Conocimiento Base.<a class="headerlink" href="#conocimiento-base" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Fundamentos de JavaScript.</li>
+<li>Fundamentos Básicos de Jquery.</li>
+<li>Twitter bootstrap.</li>
+<li>BackboneJS.</li>
+<li>Plantillas HTML compiladas en JS.</li>
+<li>HTTP con python.</li>
 </ul>
-</div></blockquote>
-<p>Editamos el archivo:</p>
-<div class="highlight-python"><pre>$nano /etc/postgresql/8.4/main/pg_hba.conf</pre>
 </div>
-<p>Cambiamos la línea que dice:</p>
-<div class="highlight-python"><pre>local all all ident</pre>
 </div>
-<p>por:</p>
-<div class="highlight-python"><pre>local all all md5</pre>
-</div>
-<p>Reiniciamos PostgreSQL:</p>
-<div class="highlight-python"><pre>$sudo services postgresql restart</pre>
-</div>
-<p>Una vez reiniciado PostgreSQL, <tt class="docutils literal"><span class="pre">iniciamos</span> <span class="pre">openerp</span> <span class="pre">conectandonos</span> <span class="pre">con</span> <span class="pre">otro</span> <span class="pre">ususario</span> <span class="pre">diferente</span> <span class="pre">al</span>
-<span class="pre">conectado</span> <span class="pre">\*</span></tt>.</p>
-<blockquote>
-<div><ul class="simple">
-<li><strong>Situación B: Postgres 9.x (Ubuntu 12.04)</strong></li>
+<div class="section" id="openerp-modulos-website">
+<h2>Openerp Módulos Website.<a class="headerlink" href="#openerp-modulos-website" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Controladores Web.</li>
+<li>Vistas Qweb.</li>
 </ul>
-</div></blockquote>
-<p>No necesitamos hacer más nada por ahora.</p>
+</div>
+<div class="section" id="herramientas-para-programadores-openerp">
+<h2>Herramientas para programadores OpenERP.<a class="headerlink" href="#herramientas-para-programadores-openerp" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Nuevas convenciones.</li>
+<li>Usando y aprovechando Runbot.</li>
+<li>Haciendo Tests Yaml.</li>
+<li>Aprovechando y retribuyendo a la comunidad.</li>
+<li>Vistas XML Version 7.0.</li>
+<li>Administración avanzada de servidores.</li>
+<li>Haz tu servidor auditable.</li>
+</ul>
 </div>
 </div>
 
