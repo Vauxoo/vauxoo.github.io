@@ -10,15 +10,15 @@ una necesidad de contar con los conocimientos necesarios para hacerte un Ninja
 en ésta aplicación y ser de alguna un profesional completamente preparado para
 afrontar los retos técnicos que se te presentarán.
 
-Entrenamiento Funcional Oficial.
-================================
+Entrenamiento funcional Oficial.
+--------------------------------
 
-**¿Por qué tomar el curso Funcional cómo programador?**
+**¿Por qué tomar el curso funcional cómo programador?**
 
 Si eres programador conocer que hace actualmente la herramienta que comenzarás
 a modificar es vital para saber que debes realmente modificar, muchas veces la
 mayor cantidad de retrabajo en la Implementación de OpenERP en cualquiera de
-sus módulos se debe al desconocimiento Funcional del mismo y la poca
+sus módulos se debe al desconocimiento funcional del mismo y la poca
 información estructurada que te permita validar si los requerimientos de tus
 usuarios finales son o no viables, son de bajo o alto esfuerzo, poder copiar
 funcionalidades para programar menos, todo eso parte de conocer muy bien
@@ -26,13 +26,15 @@ funcionalmente OpenERP.
 
 **¿Cuál es el contenido del curso funcional?**
 
-El contenido oficial del curso funcional lo puedes ver en éste `aquí
-<https://www.openerp.com/online-training>` en inglés, la agenda en español y
-dictada por `Vauxoo<http://www.vauxoo.com>` la puedes ver `aquí <http://vauxoo.eventbrite.com>`.
+El contenido oficial del curso `funcional
+<https://www.openerp.com/online-training>`_ lo puedes leer en inglés, la agenda
+en español y dictada por `Vauxoo <http://www.vauxoo.com>`_ la puedes ver en
+`eventbrite
+<http://vauxoo.eventbrite.com>`_.
 
 
 Entrenamiento Técnico Oficial.
-==============================
+------------------------------
 
 **¿Por qué necesitaré el curso técnico?**
 
@@ -43,12 +45,12 @@ desarrollo de módulos en el servidor.
 
 **¿Cuál es el contenido del curso técnico Oficial?**
 
-El contenido oficial del curso funcional lo puedes ver en éste `aquí
-<https://www.openerp.com/technical-training>` en inglés, la agenda en español y
-dictada por `Vauxoo<http://www.vauxoo.com>` la puedes ver `aquí <http://vauxoo.eventbrite.com>`.
+El contenido oficial del curso `técnico
+<https://www.openerp.com/technical-training>`_ lo puedes leer en inglés, la
+agenda en español y dictada por `Vauxoo`_ la puedes ver en `eventbrite`_.
 
-Consideraciones.
-================
+Consideraciones sobre los entrenamientos oficiales.
+---------------------------------------------------
 
 **¿Qué sucede si ya domino OpenERP desde el servidor?**
 
@@ -56,16 +58,16 @@ Si consideras que dominas todos los tópicos de los cursos oficiales, no dejes
 de validar los tópicos específicos por que es posible que necesites un día o
 dos de los tópicos que aún no domines.
 
-Web Training.
-=============
+Entrenamiento en tecnologías Web.
+---------------------------------
 
 Al comienzo de los entrenamientos se dictará sin costo un pequeño taller de
 forma grartuita para los participantes sobre bazaar y el control de versiones,
 que quedará disponible para su revisión ya que todo el avance que estaremos
 llevando a cabo durante los cursos 
 
-Módulos Web.
-------------
+Framework Web.
+''''''''''''''
 
 Capacitación para manejar el nuevo framework JavaScript, que te permitirá
 modificar y/o mejorar el comportamiento original del Cliente Web de OpenERP y
@@ -78,8 +80,7 @@ módulos del lado del servidor para los objetos de negocio.
 Base" y el manejo del Framework OpenERP Web [Disponible desde la versión 7.0 de
 OpenERP].
 
-Conocimiento Base.
-''''''''''''''''''
+**Conocimiento Base.**
 
 En ésta sección del curso se dará la información mínima necesaria para que
 puedas convertirte en un programador web sin Frameworks, si vienes de ser
@@ -95,8 +96,7 @@ para que te sientas cómodo con la programación para sitios HTML5.
 - Plantillas HTML compiladas en JS.
 - HTTP con python.
 
-Framework Openerp Web.
-''''''''''''''''''''''
+**Framework Openerp Web.**
 
 - Haciendo un módulo simple para probar el Framework Web, y entender la
   estructura.
@@ -112,8 +112,12 @@ Framework Openerp Web.
 - Ejemplos prácticos "El proyecto web-addons de la OCA."
 - Analizando a profundidad el módulo POS.
 
-Openerp Módulos Website.
-------------------------
+Openerp Módulos Website [Openerp V8.0].
+---------------------------------------
+
+En la versión 8 de OpenERP contarás con un completo framework para el
+desarrollo de sitios usando OpenERP, para mostrarte que podrás hacer un pequeño
+video con la `explicación <https://www.youtube.com/watch?v=Ug0n1lUAkrw>`_.
 
 - Introducción funcional.
 - Nuevas características en openerp-server.
@@ -130,17 +134,26 @@ Openerp Módulos Website.
 Herramientas para programadores OpenERP.
 ----------------------------------------
 
-- Nuevas convenciones.
-- Usando y aprovechando Runbot.
-- Haciendo Tests Yaml.
-- Aprovechando y retribuyendo desde y a la comunidad Openerp.
-- Vistas XML Version 7.0.
+
+En ésta sección compartiremos contigo las mejores prácticas para poner todo el
+conocimiento aprendido, y hacer que tu tiempo de programación, despliegue y
+administración se lo más efectivo y eficaz posible.
+
+- Mejores prácticas en la programación Python.
+- Usando y aprovechando Runbot, plataforma de pruebas de OpenERP.
+- Usando Launchpad para el control y la gestión de tu proyecto OpenERP. 
+- Haciendo Tests Yaml y UnitTest2, probando tu módulos y programando con TDD.
 - Administración avanzada de servidores.
 - Haz tu servidor auditable, desplegando con control de versiones de forma
   estándard.
+- Balance de carga con Nginx.
+- Haciendo más eficiente PostgreSQL.
+- Aprovechando y retribuyendo desde y a la comunidad Openerp, reglas de la OCA.
+- Mejores prácticas para el despliegue de módulos OpenERP. 
+- VauxooTools, herramientas para administradores de servidores OpenERP.
 
 Consideraciones.
-================
+----------------
 
 **¿Qué sucede si ya domino alguna de las tecnologías web descritas
 anteriormente?**
@@ -148,3 +161,4 @@ anteriormente?**
 Si consideras que dominas todos los tópicos de los cursos web arriba descritos,
 no dejes de validar los tópicos específicos por que es posible que necesites un día o
 dos de los tópicos que aún no domines.
+

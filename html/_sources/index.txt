@@ -3,10 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Manuales Públicos - Vauxoo's documentation!
-===========================================
+=========================================
+Material público para los entrenamientos.
+=========================================
 
-Contents:
+.. toctree::
+   :maxdepth: 2
+
+   vauxoo_training_format
+
+================
+Lecturas previas
+================
+
+Antes de asistir a nuestros cursos deberás leer ésta información que será
+necesaria como base para el curso, durante nuestros entrenamientos se asume que
+estos procesos están dominados por el participante.
 
 .. toctree::
    :maxdepth: 2
@@ -16,8 +28,8 @@ Contents:
    hamachi
    editors
    postgres
-   vauxoo_training_format
 
+==================
 Indices and tables
 ==================
 
