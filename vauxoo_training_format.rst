@@ -1,14 +1,33 @@
 Plan de entrenamiento en OpenERP.
 =================================
 
-Básicamente acá está el camino con el que te queremos llevar de la mano para
-convertirte en un Ninja de OpenERP a nivel técnico.
+Para un Jedi el conocimiento es lo más importante.
 
-Openerp al ser una suite de aplicaciones te permite prácticamente resolver el
-100% de las necesidades técnicas de tu compañía lo que te podrás visualizar
-una necesidad de contar con los conocimientos necesarios para hacerte un Ninja
-en ésta aplicación y ser de alguna un profesional completamente preparado para
-afrontar los retos técnicos que se te presentarán.
+Partiendo del principio que OpenERP es un software de código abierto, existe 
+una gran cantidad de Información dispersa en la web, sin orden, no indexada
+muchas veces no directamente relacionada con Openerp que es en algunos casos
+oblicatoria conocerla y dominarla, cada una cuenta con diferentes formas de
+integrarla a OpenERP y su entorno de trabajo.
+
+Convertir toda ésta información en conocimiento puede llegar a ser 
+una labor que consume una gran cantidad de esfuerzo, esfuerzo que pudieses
+invertir en generar valor a tu cliente. En Vauxoo hemos logrado
+definiri, probar y validar una estrategia tecnica y funcional con la que
+tendrás toda la información y experiencia disponible utilizada en nuestros
+despliegues de la herramienta de la herramienta, lo colocamos de forma
+divertida y cómoda para llevarte por un cámino menos tortuoso en el proceso
+obligatorio de conversión de esa información en conocimiento.
+
+El conocimiento es poder!!. (Hombresito Super Héroe).
+
+Te ayudamos a evitar la inversión incorrecta de tiempo para que puedas
+dedicarle ese tiempo a generar valor a tus cliente, y cliente bien atendido es
+cliente contento.
+
+Durante nuestros entrenamiento te permitiremos conocer sin mayor ruido que lo
+necesario para tu implementación ó desarrollo sobre OpenERP los fundamentos de
+Linux, Postgres, Python, XML, html5 y tecnologías web aplicados directamente a
+sacarles el mayor beneficio para trabajar con OpenERP.
 
 Entrenamiento funcional Oficial.
 --------------------------------
