@@ -258,7 +258,6 @@ necesitan tener conocimientos acerca de el proceso de desarollo de OpenERP.
 
 Esta diseñado para nuevos desarolladores y profesionales de IT con ganas de
 aprender acerca de los aspectos tecnicos de OpenERP.
-modificacion
 
 En éste entrenamiento obtendrás todas las herramientas necesarias para
 modificar ó agregar elementos a los modelos existentes en OpenERP, cambiar el
@@ -273,6 +272,36 @@ mostraremos como crear completamente nuevos modelos y procesos de negocio.
 El contenido oficial del curso `técnico
 <https://www.openerp.com/technical-training>`_ lo puedes leer en inglés, la
 agenda en español y dictada por `Vauxoo`_ la puedes ver en `eventbrite`_.
+
+**Acerca de OpenERP, Introduccion a Python y Configuraciones**
+
+En esta seccion del curso se proporciona la informacion tecnica general acerca de 
+OpenERP, en la cual se explica la razon por la cual se debe utilizar un sistema
+UNIX para propositos de desarrollo, se imparte tambien una rapida introduccion 
+al lenguaje de programacion Python, en el cual aprenderás a leer, entender y
+escribir programas y modulos, aprenderas a instalar y a hacer la
+configuracion basica de un servidor OpenERP, finalmente, te mostraremos como
+utilizar la plataforma de desarrollo con la cual trabaja OpenERP (Launchpad).
+
+
+**Construyendo modulos para OpenERP**
+
+- Estructura basica de un modulo OpenERP.
+- Construyendo un modulo OpenERP.
+- Construyendo Vistas.
+- Relaciones entre objetos.
+- Herencia.
+- Metodos ORM.
+- Vistas Avanzadas.
+- Flujos de Trabajo.
+- Seguridad.
+- Wizards.
+- Internacionalizacion
+- Reportes.
+- Web Services.
+
+Cabe destacar que cada participante recibe material paso a paso con ejercicios
+y soluciones.
 
 Tercer Paso: Modificando el cliente web Entrenamiento en tecnologías Web.
 -------------------------------------------------------------------------
