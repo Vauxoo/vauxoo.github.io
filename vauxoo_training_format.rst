@@ -1,20 +1,21 @@
 Pln de entrenamiento en OpenERP.
 =================================
 
-Una de las particularidades del OpenSource es  que la información necesaria para
-lograr un fin se encuentra exageradamente dispersa, y muchas veces convertirla
-en conocimiento puede llegar a convertirse en un camino tortuoso a la hora de resolver los problemas que nos planteamos.
+Una de las particularidades del Mundo de las tecnología de información es  que
+la información necesaria para lograr un fin se encuentra muy dispersa, y muchas
+veces convertirla en conocimiento puede llegar a ser un camino tortuoso a la
+hora de resolver los problemas que nos planteamos.
 
 El conocimiento no es más que información asimilada.
 
 Entendiendo que OpenERP es un software de código abierto, existe una gran
 cantidad de Información dispersa en la web, sin orden, no indexada muchas veces
 no directamente relacionada con Openerp que es en algunos casos obligatoria
-conocerla y dominarla ya cada pieza de información cuenta con diferentes formas
-de integrarla a OpenERP y su entorno de trabajo.
+conocerla y dominarla, ya que, cada pieza de información cuenta con diferentes formas
+de integrarla a una implementación de OpenERP.
 
 Convertir toda ésta información en conocimiento puede llegar a ser 
-una labor que consume una gran cantidad de esfuerzo, pero todo y cada uno de
+una labor que consume una gran cantidad de esfuerzo, pero todos y cada uno de
 esos esfuerzos valen la pena, la pregunta es:
 
 ¿por que no acelerar el proceso e invertir ese
@@ -26,13 +27,18 @@ disponible, lo colocamos de forma cómoda y estructurada para llevarte de la
 mano por un camino más corto a convertir esa información en conocimiento. 
 
 Te ayudamos a evitar la inversión incorrecta de tiempo para que puedas
-dedicarle ese tiempo a generar valor a tus cliente, y cómo sabemos un cliente bien atendido, es un cliente contento.
+dedicarle ese tiempo a generar valor a tus cliente, y cómo sabemos un cliente
+bien atendido, es un cliente contento.
 
 ¿Para quién son esta serie de cursos?.
 
-Estos cursos son dirigidos a todas las personas que deseen utilizar OpenERP dentro de su compañía o quieran estar preparados para atender un cliente al que le hagan el trabajo.
+Estos cursos son dirigidos a todas las personas que deseen utilizar OpenERP
+dentro de su compañía o quieran estar preparados para atender un cliente al que
+le hagan el trabajo.  
 
-Tanto usuarios claves implementadores deben tomar éstos cursos, acá el recorrido que propone Vauxoo para asegurar que el camino al éxito sea el más corto posible.
+Tanto usuarios claves implementadores deben tomar éstos cursos, acá el
+recorrido que propone Vauxoo para asegurar que el camino al éxito sea el más
+corto posible.  
 
 Primer Paso: Conociendo la herramienta Entrenamiento funcional.
 ---------------------------------------------------------------
@@ -51,10 +57,13 @@ podrás evaluar todo el comportamiento integrado de OpenERP.
 Esta diseñado con el nivel suficiente para que tanto programadores como usuarios funcionales puedan obtener las herramientas básicas para trabajar con OpenERP.
 
 Si eres programador, conocer que hace actualmente la herramienta que comenzarás
-a modificar es vital, de ésta manera podrás saber qué y dónde debes realmente modificar el software, muchas veces la mayor cantidad de retrabajo en la Implementación de OpenERP en cualquiera de sus módulos se debe a su desconocimiento funcional y la
-poca información estructurada que te permita validar si los requerimientos de
-tus usuarios finales son o no viables, son de bajo o alto esfuerzo, te permitirá saber cuales
-funcionalidades reutilizar para programar más eficiente y con mejor calidad.
+a modificar es vital, de ésta manera podrás saber qué y dónde debes realmente
+modificar el software, muchas veces, la mayor cantidad de retrabajo en la
+Implementación de OpenERP en cualquiera de sus módulos, se debe a su
+desconocimiento funcional y a la poca información estructurada que te permita
+validar si los requerimientos de tus usuarios finales son o no viables, son de
+bajo o alto esfuerzo, y además te permitirá saber cuales funcionalidades reutilizar para
+programar más eficiente y con mejor calidad.
 
 Si eres usuario Funcional, te permitirá solicitar solo las características adicionales que realmente requieras, y poderte valer por ti mismo sin la necesidad de un experto técnico el 100% de las veces.
 
