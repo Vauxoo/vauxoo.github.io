@@ -1,8 +1,6 @@
 Plan de entrenamiento en OpenERP.
 =================================
 
-PROBANDO UN CAMBIO
-
 Una de las particularidades del Mundo de las tecnología de información es  que
 la información necesaria para lograr un fin se encuentra muy dispersa, y muchas
 veces convertirla en conocimiento puede llegar a ser un camino tortuoso a la
