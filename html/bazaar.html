@@ -178,7 +178,8 @@ proyecto.</p>
 <div class="section" id="instalacion">
 <h2>Instalación.<a class="headerlink" href="#instalacion" title="Permalink to this headline">¶</a></h2>
 <p>Lo instalas como cualquier paquete en Ubuntu:</p>
-<div class="highlight-python"><pre>$sudo apt-get install bzr</pre>
+<div class="highlight-python"><div class="highlight"><pre>$sudo apt-get install bzr
+</pre></div>
 </div>
 </div>
 <div class="section" id="presentese">
@@ -186,46 +187,52 @@ proyecto.</p>
 <p>Antes de empezar a trabajar, es conveniente que le diga a Bazaar quién es usted. De ese modo su
 trabajo será identificando correctamente en los logs de revisión.</p>
 <p>Utilice su nombre y dirección de email en lugar de John Doe, teclee:</p>
-<div class="highlight-python"><pre>$bzr whoami "John Doe &lt;john.doe@gmail.com&gt;"</pre>
+<div class="highlight-python"><div class="highlight"><pre>$bzr whoami &quot;John Doe &lt;john.doe@gmail.com&gt;&quot;
+</pre></div>
 </div>
 <p>Bazaar creará o modificará ahora un archivo de configuración, incluyendo su nombre y dirección de
 email.</p>
 <p>Ahora compruebe que su nombre y dirección de email se han registrado correctamente:</p>
-<div class="highlight-python"><pre>$bzr whoami
-&gt;&gt; John Doe &lt;john.doe@gmail.com&gt;</pre>
+<div class="highlight-python"><div class="highlight"><pre>$bzr whoami
+&gt;&gt; John Doe &lt;john.doe@gmail.com&gt;
+</pre></div>
 </div>
 </div>
 <div class="section" id="ponga-archivos-bajo-control-de-versiones">
 <h2>Ponga archivos bajo control de versiones.<a class="headerlink" href="#ponga-archivos-bajo-control-de-versiones" title="Permalink to this headline">¶</a></h2>
 <p>Vamos a crear un directorio y algunos archivos para utilizar con Bazaar:</p>
-<div class="highlight-python"><pre>$mkdir miproyecto
+<div class="highlight-python"><div class="highlight"><pre>$mkdir miproyecto
 $cd miproyecto
 $mkdir images
-$touch hola.py calculo.py images/lista.txt</pre>
+$touch hola.py calculo.py images/lista.txt
+</pre></div>
 </div>
 <p>Ahora haremos que Bazaar se inicialize en el directorio de su proyecto:</p>
-<div class="highlight-python"><pre>$bzr init
-&gt;&gt; Creado un standalone tree (formaot: 2a)</pre>
+<div class="highlight-python"><div class="highlight"><pre>$bzr init
+&gt;&gt; Creado un standalone tree (formaot: 2a)
+</pre></div>
 </div>
 <p>Si parece que no ha ocurrido nada no se preocupe. Bazaar ha creado un branch donde guardará sus
 archivos y su histórico de revisiones.</p>
 <p>El siguiente paso es decirle a Bazaar a que archivos desea seguirles la pista. Ejecutando <em>bzr add</em>
 agregará recursivamente todos los elementos dentro del proyecto:</p>
-<div class="highlight-python"><pre>$bzr add
+<div class="highlight-python"><div class="highlight"><pre>$bzr add
 &gt;&gt; adding calculo.py
 &gt;&gt; adding hola.py
 &gt;&gt; adding images
-&gt;&gt; adding images/lista.txt</pre>
+&gt;&gt; adding images/lista.txt
+</pre></div>
 </div>
 <p>A continuación haga un <em>commit</em>  de los archivos agregados a su branch. Incluye un mensaje para
 explicar porque se realiza el <em>commit</em>:</p>
-<div class="highlight-python"><pre>$bzr commit -m "Importación inicial"
+<div class="highlight-python"><div class="highlight"><pre>$bzr commit -m &quot;Importación inicial&quot;
 &gt;&gt; Committing to: /home/yani/Escritorio/miproyecto/
 &gt;&gt; añadido calculo.py
 &gt;&gt; añadido hola.py
 &gt;&gt; añadido images
 &gt;&gt; añadido images/lista.txt
-&gt;&gt; Committed revision 1.</pre>
+&gt;&gt; Committed revision 1.
+</pre></div>
 </div>
 <p>Como Bazaar es un sistema de control de versiones distribuido, no necesita conectar con un servidor
 central para hacer el commit. Bazaar guarda su branch y todos sus commits dentro del directorio con
@@ -235,24 +242,26 @@ el que está trabajando, busque el subdirectorio .bzr.</p>
 <h2>Haciendo cambios en sus archivos.<a class="headerlink" href="#haciendo-cambios-en-sus-archivos" title="Permalink to this headline">¶</a></h2>
 <p>Vamos a cambiar un archivo e introduciremos ese cambio en su branch.  Edite <em>hola.py</em> en su editor
 favorito y luego compruebe que ha hecho:</p>
-<div class="highlight-python"><pre>$bzr diff
-&gt;&gt; === modified file 'hola.py'
+<div class="highlight-python"><div class="highlight"><pre>$bzr diff
+&gt;&gt; === modified file &#39;hola.py&#39;
 &gt;&gt; --- hola.py     2013-01-14 16:03:54 +0000
 &gt;&gt; +++ hola.py     2013-01-14 16:11:11 +0000
 &gt;&gt; @@ -0,0 +1,1 @@
-&gt;&gt; +print "Hola Mundo"</pre>
+&gt;&gt; +print &quot;Hola Mundo&quot;
+</pre></div>
 </div>
 <p>Añada su trabajo al branch de Bazaar:</p>
-<div class="highlight-python"><pre>$bzr ci -m "Añadida la primera línea de texto"
+<div class="highlight-python"><div class="highlight"><pre>$bzr ci -m &quot;Añadida la primera línea de texto&quot;
 &gt;&gt; Committing to: /home/yani/Escritorio/miproyecto/
 &gt;&gt; modificado hola.py
-&gt;&gt; Committed revision 2.</pre>
+&gt;&gt; Committed revision 2.
+</pre></div>
 </div>
 </div>
 <div class="section" id="un-vistazo-el-log-de-revisiones">
 <h2>Un vistazo el log de revisiones.<a class="headerlink" href="#un-vistazo-el-log-de-revisiones" title="Permalink to this headline">¶</a></h2>
 <p>Consultar el log de revisiones:</p>
-<div class="highlight-python"><pre>$bzr log
+<div class="highlight-python"><div class="highlight"><pre>$bzr log
 &gt;&gt; revno: 2
 &gt;&gt; committer: Yanina Aular &lt;yanina.aular@vauxoo.com&gt;*
 &gt;&gt; branch nick: miproyecto*
@@ -264,7 +273,8 @@ favorito y luego compruebe que ha hecho:</p>
 &gt;&gt; branch nick: miproyecto*
 &gt;&gt; timestamp: Mon 2013-01-14 11:33:54 -0530*
 &gt;&gt; message:
-&gt;&gt; Importacion inicial</pre>
+&gt;&gt; Importacion inicial
+</pre></div>
 </div>
 </div>
 </div>
@@ -281,10 +291,12 @@ SSH en su nueva cuenta de Launchpad.</p>
 <div class="section" id="registrar-clave-ssh-en-la-cuenta-de-launchpad">
 <h2>Registrar clave SSH en la cuenta de Launchpad.<a class="headerlink" href="#registrar-clave-ssh-en-la-cuenta-de-launchpad" title="Permalink to this headline">¶</a></h2>
 <p>Instala OpenSSH:</p>
-<div class="highlight-python"><pre>$ sudo apt-get install openssh-client</pre>
+<div class="highlight-python"><div class="highlight"><pre>$ sudo apt-get install openssh-client
+</pre></div>
 </div>
 <p>Genera la clave:</p>
-<div class="highlight-python"><pre>$ ssh-keygen -t rsa</pre>
+<div class="highlight-python"><div class="highlight"><pre>$ ssh-keygen -t rsa
+</pre></div>
 </div>
 <ul class="simple">
 <li>Presiona intro para aceptar el nombre por defecto</li>
@@ -307,14 +319,16 @@ click en el botón Import Public Key para terminar.</p>
 <h2>Informando tu usuario Launchpad<a class="headerlink" href="#informando-tu-usuario-launchpad" title="Permalink to this headline">¶</a></h2>
 <p>Antes de hacer push, y una vez lista tu llave ssh con launchpad deberás informar localmente cual es
 es tu usuario en dicha plataforma, eso lo logramos con el siguiente comando.:</p>
-<div class="highlight-python"><pre>$bzr launchpad-login tutusuariolaunchpad</pre>
+<div class="highlight-python"><div class="highlight"><pre>$bzr launchpad-login tutusuariolaunchpad
+</pre></div>
 </div>
 </div>
 <div class="section" id="publicando-su-branch-con-launchpad">
 <h2>Publicando su branch con Launchpad.<a class="headerlink" href="#publicando-su-branch-con-launchpad" title="Permalink to this headline">¶</a></h2>
 <p>Launchpad es una suite de herramientas de desarrollo y hosting para proyectos de software libre.
 Puede utilizarlo para publicar su branch.:</p>
-<div class="highlight-python"><pre>$bzr push lp:~usuario-creado/+junk/miproyecto</pre>
+<div class="highlight-python"><div class="highlight"><pre>$bzr push lp:~usuario-creado/+junk/miproyecto
+</pre></div>
 </div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
@@ -326,12 +340,14 @@ Puede utilizarlo para publicar su branch.:</p>
 <div class="section" id="creando-su-propia-copia-de-otro-branch">
 <h2>Creando su propia copia de otro branch<a class="headerlink" href="#creando-su-propia-copia-de-otro-branch" title="Permalink to this headline">¶</a></h2>
 <p>Ahora cualquiera podrá crear su propia copia de su branch tecleando:</p>
-<div class="highlight-python"><pre>$bzr branch lp:~usuario-creado/+junk/miproyecto</pre>
+<div class="highlight-python"><div class="highlight"><pre>$bzr branch lp:~usuario-creado/+junk/miproyecto
+</pre></div>
 </div>
 <p>Para trabajar con el código de otra persona, tendrá que hacer su propia copia de su branch. Vamos a
 coger un ejemplo real, la interfaz GTK de Bazaar:</p>
-<div class="highlight-python"><pre>$bzr branch http://bazaar.launchpad.net/~bzr/bzr-gtk/trunk bzr-gtk.john
-&gt;&gt; Branched 292 revision(s).</pre>
+<div class="highlight-python"><div class="highlight"><pre>$bzr branch http://bazaar.launchpad.net/~bzr/bzr-gtk/trunk bzr-gtk.john
+&gt;&gt; Branched 292 revision(s).
+</pre></div>
 </div>
 <p>Bazaar descargará todos los archivos y el histórico de revisiones completo del trunk branch del
 proyecto bzr-gtk y creará una copia llamada bzr-gtk.john.</p>
@@ -453,7 +469,7 @@ sus ramas de código de Launchpad y enlace a los mismos desde el blueprint.</li>
     </p>
     <p>
         &copy; Copyright 2013, Vauxoo.<br/>
-      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2b1.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.1.<br/>
     </p>
   </div>
   </div>

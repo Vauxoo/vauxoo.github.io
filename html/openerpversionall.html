@@ -186,28 +186,33 @@ manuales de éstas dos herramientas para mayor información.</p>
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
 <p>Si está en un sistema basado en Ubuntu o Debian deberás instalar <a class="reference external" href="http://bazaar.canonical.com/en/">Bazaar</a> con el siguiente comando:</p>
-<div class="last highlight-python"><pre>sudo apt-get install bzr bzrtools</pre>
+<div class="last highlight-python"><div class="highlight"><pre>sudo apt-get install bzr bzrtools
+</pre></div>
 </div>
 </div>
 <div class="section" id="directorio-de-trabajo">
 <h3>Directorio de trabajo<a class="headerlink" href="#directorio-de-trabajo" title="Permalink to this headline">¶</a></h3>
 <p>Lo primero que haremos es crear el directorio de trabajo donde nuestras fuentes estarán alojadas:</p>
-<div class="highlight-python"><pre>mkdir source;cd source</pre>
+<div class="highlight-python"><div class="highlight"><pre>mkdir source;cd source
+</pre></div>
 </div>
 </div>
 <div class="section" id="descarga-el-script-de-inicio">
 <h3>Descarga el Script de inicio<a class="headerlink" href="#descarga-el-script-de-inicio" title="Permalink to this headline">¶</a></h3>
 <p>Openerp te provee un Script para automatizar las tareas de crear y compartir los repositorios de su
 código fuente éste Script lo podemos obtener con el siguiente comando:</p>
-<div class="highlight-python"><pre>bzr cat -d lp:~openerp-dev/openerp-tools/trunk setup.sh | sh</pre>
+<div class="highlight-python"><div class="highlight"><pre>bzr cat -d lp:~openerp-dev/openerp-tools/trunk setup.sh | sh
+</pre></div>
 </div>
 <p>Éste comando creará dos archivos el el directorio <tt class="docutils literal"><span class="pre">source</span></tt> creado anteriormente:</p>
-<div class="highlight-python"><pre>-rw-rw-r--  1 openerp openerp 5465 2012-04-17 11:05 Makefile
--rw-rw-r--  1 openerp openerp 2902 2012-04-17 11:05 Makefile_helper.py</pre>
+<div class="highlight-python"><div class="highlight"><pre>-rw-rw-r--  1 openerp openerp 5465 2012-04-17 11:05 Makefile
+-rw-rw-r--  1 openerp openerp 2902 2012-04-17 11:05 Makefile_helper.py
+</pre></div>
 </div>
 <p>Te recomendamos leer la ayuda de las opciones disponibles con éste Script ejecutando el siguiente
 comando:</p>
-<div class="highlight-python"><pre>make help</pre>
+<div class="highlight-python"><div class="highlight"><pre>make help
+</pre></div>
 </div>
 </div>
 <div class="section" id="descarga-las-fuentes">
@@ -220,21 +225,23 @@ al menos 2 gb de espacio disponible en disco.</p>
 </div>
 <p>Para obtener el código fuente de la última versión estable (en éste caso la versión 7.0) ejecuta el
 siguiente comando:</p>
-<div class="highlight-python"><pre>make init-v70</pre>
+<div class="highlight-python"><div class="highlight"><pre>make init-v70
+</pre></div>
 </div>
 <p>Ésto creará los siguiente directorios dentro  de <tt class="docutils literal"><span class="pre">source</span></tt> y descargará la última versión <tt class="docutils literal"><span class="pre">trunk</span></tt>
 de OpenERP y ajustará los directorios para trabajar con OpenERP V70:</p>
-<div class="highlight-python"><pre>drwxrwxr-x  3 openerp openerp 4096 2012-04-17 11:10 addons
+<div class="highlight-python"><div class="highlight"><pre>drwxrwxr-x  3 openerp openerp 4096 2012-04-17 11:10 addons
 drwxrwxr-x  3 openerp openerp 4096 2012-04-17 11:10 misc
 drwxrwxr-x  3 openerp openerp 4096 2012-04-17 11:10 server
-drwxrwxr-x  3 openerp openerp 4096 2012-04-17 11:10 web</pre>
+drwxrwxr-x  3 openerp openerp 4096 2012-04-17 11:10 web
+</pre></div>
 </div>
 </div>
 <div class="section" id="instalando-las-dependencias">
 <h3>Instalando las dependencias<a class="headerlink" href="#instalando-las-dependencias" title="Permalink to this headline">¶</a></h3>
 <p>Algunas dependencias son necesarias para usar OpenERP. Dependiendo de tu entorno, necesitarás
 instalar los siguientes paquetes:</p>
-<div class="highlight-python"><pre>sudo apt-get install graphviz ghostscript postgresql-client \
+<div class="highlight-python"><div class="highlight"><pre>sudo apt-get install graphviz ghostscript postgresql-client \
           python-dateutil python-feedparser python-gdata \
           python-ldap python-libxslt1 python-lxml python-mako \
           python-openid python-psycopg2 python-pybabel python-pychart \
@@ -242,13 +249,15 @@ instalar los siguientes paquetes:</p>
           python-tz python-vatnumber python-vobject python-webdav \
           python-werkzeug python-xlwt python-yaml python-imaging \
           python-matplotlib  python-unittest2 python-mock python-docutils \
-          python-jinja2 python-psutil</pre>
+          python-jinja2 python-psutil
+</pre></div>
 </div>
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
 <p>Si estás en un entorno donde OpenERP y el servidor de bases de datos Postgres se encuentran en
 la misma máquina deberás instalar PostgreSQL si ya lo tienes instalado omite éste comentario.:</p>
-<div class="last highlight-python"><pre>sudo apt-get install postgresql</pre>
+<div class="last highlight-python"><div class="highlight"><pre>sudo apt-get install postgresql
+</pre></div>
 </div>
 </div>
 </div>
@@ -256,17 +265,20 @@ la misma máquina deberás instalar PostgreSQL si ya lo tienes instalado omite �
 <h3>Iniciamos el usuario de base de datos<a class="headerlink" href="#iniciamos-el-usuario-de-base-de-datos" title="Permalink to this headline">¶</a></h3>
 <p>Para conectarnos a PostgreSQL requerimos contar con un usuario de Bases de Datos lo creamos con el
 siguiente comando:</p>
-<div class="highlight-python"><pre>make db-setup</pre>
+<div class="highlight-python"><div class="highlight"><pre>make db-setup
+</pre></div>
 </div>
 <p>La salida que te retornará éste comando será:</p>
-<div class="highlight-python"><pre>psql: FATAL:  role "tuususariolinux" does not exist
+<div class="highlight-python"><div class="highlight"><pre>psql: FATAL:  role &quot;tuususariolinux&quot; does not exist
 # setup a postgres user
-sudo su - postgres -c "createuser -s $USER"</pre>
+sudo su - postgres -c &quot;createuser -s $USER&quot;
+</pre></div>
 </div>
 <p>Si lo ejecutas por segunda vez te debería aparecer:</p>
-<div class="highlight-python"><pre># setup a postgres user
-sudo su - postgres -c "createuser -s $USER"
-createuser: creation of new role failed: ERROR:  role "tuusuariolinux" already exists</pre>
+<div class="highlight-python"><div class="highlight"><pre># setup a postgres user
+sudo su - postgres -c &quot;createuser -s $USER&quot;
+createuser: creation of new role failed: ERROR:  role &quot;tuusuariolinux&quot; already exists
+</pre></div>
 </div>
 <p>Si ésto sucede todo está bien el comando ha funcionado correctamente.</p>
 </div>
@@ -274,7 +286,8 @@ createuser: creation of new role failed: ERROR:  role "tuusuariolinux" already e
 <h3>Ejecutamos el servidor<a class="headerlink" href="#ejecutamos-el-servidor" title="Permalink to this headline">¶</a></h3>
 <p>Con éste comando ponemos a correr el servidor, recordemos que OpenERP es un servicio siempre
 corriendo en el sistema por lo que veremos una serie de salidas una vez ejecutemos éste comando:</p>
-<div class="highlight-python"><pre>make server</pre>
+<div class="highlight-python"><div class="highlight"><pre>make server
+</pre></div>
 </div>
 </div>
 <div class="section" id="probamos-que-todo-este-en-orden">
@@ -287,13 +300,15 @@ corriendo en el sistema por lo que veremos una serie de salidas una vez ejecutem
 <h2>Opciones de la Línea de comandos<a class="headerlink" href="#opciones-de-la-linea-de-comandos" title="Permalink to this headline">¶</a></h2>
 <p>Usando el comando abajo destro del directorio <tt class="docutils literal"><span class="pre">server</span></tt> podemos ver todas las opciones posibles
 para correr el servidor OpenERP:</p>
-<div class="highlight-python"><pre>./openerp-server --help</pre>
+<div class="highlight-python"><div class="highlight"><pre>./openerp-server --help
+</pre></div>
 </div>
 </div>
 <div class="section" id="configuraciones">
 <h2>Configuraciones<a class="headerlink" href="#configuraciones" title="Permalink to this headline">¶</a></h2>
 <p id="getting-started-configuration-link">Un archivo de configuración estará disponible una vez arranques el servidor en:</p>
-<div class="highlight-python"><pre>* ``~/.openerp_serverrc``</pre>
+<div class="highlight-python"><div class="highlight"><pre>* ``~/.openerp_serverrc``
+</pre></div>
 </div>
 <p>Ya estamos listos para comenzar a trabajar.</p>
 </div>
@@ -315,7 +330,7 @@ para correr el servidor OpenERP:</p>
     </p>
     <p>
         &copy; Copyright 2013, Vauxoo.<br/>
-      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2b1.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.1.<br/>
     </p>
   </div>
   </div>
