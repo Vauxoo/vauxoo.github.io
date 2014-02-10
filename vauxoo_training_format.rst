@@ -1,47 +1,51 @@
 Plan de entrenamiento en OpenERP.
 =================================
 
-Para un Jedi el conocimiento es lo más importante.
+Una de las particularidades del OpenSource es que la información necesaria para
+lograr un fin se encuentra exageradamente dispersa, y muchas veces convertirla
+en conocimiento (partiendo del principio de que el conocimiento no es más que
+la información asimilada para lograr un fin) se puede llegar a convertir en un
+camino tortuoso a la hora de resolver los problemas que nos planteamos.
 
-Partiendo del principio que OpenERP es un software de código abierto, existe 
-una gran cantidad de Información dispersa en la web, sin orden, no indexada
-muchas veces no directamente relacionada con Openerp que es en algunos casos
-oblicatoria conocerla y dominarla, cada una cuenta con diferentes formas de
-integrarla a OpenERP y su entorno de trabajo.
+Entendiendo que OpenERP es un software de código abierto, existe una gran
+cantidad de Información dispersa en la web, sin orden, no indexada muchas veces
+no directamente relacionada con Openerp que es en algunos casos obligatoria
+conocerla y dominarla ya cada pieza de información cuenta con diferentes formas
+de integrarla a OpenERP y su entorno de trabajo.
 
 Convertir toda ésta información en conocimiento puede llegar a ser 
-una labor que consume una gran cantidad de esfuerzo, esfuerzo que pudieses
-invertir en generar valor a tu cliente. En Vauxoo hemos logrado
-definiri, probar y validar una estrategia tecnica y funcional con la que
-tendrás toda la información y experiencia disponible utilizada en nuestros
-despliegues de la herramienta de la herramienta, lo colocamos de forma
-divertida y cómoda para llevarte por un cámino menos tortuoso en el proceso
-obligatorio de conversión de esa información en conocimiento.
+una labor que consume una gran cantidad de esfuerzo, pero todo y cada uno de
+esos esfuerzos vale la pena, pero ¿por que no acelerar el proceso e invertir ese
+esfuerzo en agregarle valor a tu cliente?.
 
-El conocimiento es poder!!. (Hombresito Super Héroe).
+En Vauxoo hemos logrado definir y validar una estrategia tecnica y funcional
+con la que te ponemos nuestra experiencia, la información oficial y no oficial
+disponible, lo colocamos de forma cómoda y estructurada para llevarte de la
+mano por un cámino más corto  a convertir esa información en conocimiento. 
 
 Te ayudamos a evitar la inversión incorrecta de tiempo para que puedas
 dedicarle ese tiempo a generar valor a tus cliente, y cliente bien atendido es
 cliente contento.
 
-Durante nuestros entrenamiento te permitiremos conocer sin mayor ruido que lo
-necesario para tu implementación ó desarrollo sobre OpenERP los fundamentos de
-Linux, Postgres, Python, XML, html5 y tecnologías web aplicados directamente a
-sacarles el mayor beneficio para trabajar con OpenERP.
+Primer Paso: Conociendo la herramienta Entrenamiento funcional.
+---------------------------------------------------------------
 
-Entrenamiento funcional Oficial.
---------------------------------
+Lo primero que recomendamos hacer es conocer funcionalmente OpenERP esto te
+permite saber con que cuentas actualmente desarrollado en la herramienta y
+poder tomar decisiones correctas en el lenguaje de tus usuarios si eres técnico
+u ofrecer a tus usuarios.
 
-**¿Por qué tomar el curso funcional cómo programador?**
+Durante éste curso hacemos un recorrido completo por todos los procesos
+disponible como base para la gestión de una empresa teórica, de ésta manera
+podrás evaluar todo el comportamiento integrado de OpenERP.
 
 Si eres programador conocer que hace actualmente la herramienta que comenzarás
-a modificar es vital para saber que debes realmente modificar, muchas veces la
-mayor cantidad de retrabajo en la Implementación de OpenERP en cualquiera de
-sus módulos se debe al desconocimiento funcional del mismo y la poca
-información estructurada que te permita validar si los requerimientos de tus
-usuarios finales son o no viables, son de bajo o alto esfuerzo, poder copiar
-funcionalidades para programar menos, todo eso parte de conocer muy bien
-funcionalmente OpenERP.
+a modificar es vital para saber qué y donde debes realmente modificar, muchas
+veces la mayor cantidad de retrabajo en la Implementación de OpenERP en
+cualquiera de sus módulos se debe al desconocimiento funcional del mismo y la
+poca información estructurada que te permita validar si los requerimientos de
+tus usuarios finales son o no viables, son de bajo o alto esfuerzo, poder
+copiar funcionalidades para programar más eficiente y con mejor calidad.
 
 **¿Cuál es el contenido del curso funcional?**
 
@@ -51,16 +55,16 @@ en español y dictada por `Vauxoo <http://www.vauxoo.com>`_ la puedes ver en
 `eventbrite
 <http://vauxoo.eventbrite.com>`_.
 
-
-Entrenamiento Técnico Oficial.
-------------------------------
-
-**¿Por qué necesitaré el curso técnico?**
+Segundo Paso: Estableciendo las bases técnicas Entrenamiento Técnico Oficial.
+-----------------------------------------------------------------------------
 
 En éste entrenamiento obtendrás todas las herramientas necesarias para
-modificar ó agregar comportamiento desde el punto de vista de objetos de
-negocios y modelos de datos a openerp permitiendote dominar por completo el
-desarrollo de módulos en el servidor. 
+modificar ó agregar elementos a los modelos existentes en OpenERP, cambiar el
+comportamiento de los objetos de negocios y ajustar los procesos de Openerp
+para que se ajusten por completo a las necesidades de tus clientes.
+
+Si no hay nada que se parezca a lo que necesitas, no hay problema, te
+mostraremos como crear completamente nuevos modelos y procesos de negocio.  
 
 **¿Cuál es el contenido del curso técnico Oficial?**
 
@@ -68,17 +72,8 @@ El contenido oficial del curso `técnico
 <https://www.openerp.com/technical-training>`_ lo puedes leer en inglés, la
 agenda en español y dictada por `Vauxoo`_ la puedes ver en `eventbrite`_.
 
-Consideraciones sobre los entrenamientos oficiales.
----------------------------------------------------
-
-**¿Qué sucede si ya domino OpenERP desde el servidor?**
-
-Si consideras que dominas todos los tópicos de los cursos oficiales, no dejes
-de validar los tópicos específicos por que es posible que necesites un día o
-dos de los tópicos que aún no domines.
-
-Entrenamiento en tecnologías Web.
----------------------------------
+Tercer Paso: Modificando el cliente web Entrenamiento en tecnologías Web.
+-------------------------------------------------------------------------
 
 Al comienzo de los entrenamientos se dictará sin costo un pequeño taller de
 forma grartuita para los participantes sobre bazaar y el control de versiones,
