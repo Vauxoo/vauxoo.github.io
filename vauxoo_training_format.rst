@@ -253,6 +253,12 @@ en español y dictada por `Vauxoo <http://www.vauxoo.com>`_ la puedes ver en
 Segundo Paso: Estableciendo las bases técnicas Entrenamiento Técnico Oficial.
 -----------------------------------------------------------------------------
 
+Este entrenamiento esta dedicado a Partners, Integradores y Desarolladores que 
+necesitan tener conocimientos acerca de el proceso de desarollo de OpenERP.
+
+Esta diseñado para nuevos desarolladores y profesionales de IT con ganas de
+aprender acerca de los aspectos tecnicos de OpenERP.
+
 En éste entrenamiento obtendrás todas las herramientas necesarias para
 modificar ó agregar elementos a los modelos existentes en OpenERP, cambiar el
 comportamiento de los objetos de negocio y ajustar los procesos de OpenERP
