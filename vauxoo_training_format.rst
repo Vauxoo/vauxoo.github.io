@@ -258,6 +258,7 @@ necesitan tener conocimientos acerca de el proceso de desarollo de OpenERP.
 
 Esta diseñado para nuevos desarolladores y profesionales de IT con ganas de
 aprender acerca de los aspectos tecnicos de OpenERP.
+modificacion
 
 En éste entrenamiento obtendrás todas las herramientas necesarias para
 modificar ó agregar elementos a los modelos existentes en OpenERP, cambiar el
