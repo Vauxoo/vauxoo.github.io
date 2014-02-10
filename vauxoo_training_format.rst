@@ -75,10 +75,10 @@ Segundo Paso: Estableciendo las bases técnicas Entrenamiento Técnico Oficial.
 -----------------------------------------------------------------------------
 
 Este entrenamiento esta dedicado a Partners, Integradores y Desarolladores que 
-necesitan tener conocimientos acerca de el proceso de desarollo de OpenERP.
+necesitan tener conocimientos acerca de el proceso de desarrollo de OpenERP.
 
 Esta diseñado para nuevos desarolladores y profesionales de IT con ganas de
-aprender acerca de los aspectos tecnicos de OpenERP.
+aprender acerca de los aspectos técnicos de OpenERP.
 
 En éste entrenamiento obtendrás todas las herramientas necesarias para
 modificar ó agregar elementos a los modelos existentes en OpenERP, cambiar el
@@ -96,10 +96,10 @@ agenda en español y dictada por `Vauxoo`_ la puedes ver en `eventbrite`_.
 
 **Acerca de OpenERP, Introduccion a Python y Configuraciones**
 
-En esta seccion del curso se proporciona la informacion tecnica general acerca de 
-OpenERP, en la cual se explica la razon por la cual se debe utilizar un sistema
-UNIX para propositos de desarrollo, se imparte tambien una rapida introduccion 
-al lenguaje de programacion Python, en el cual aprenderás a leer, entender y
+En esta seccion del curso se proporciona la información técnica general acerca de 
+OpenERP, en la cual se explica la razón por la cual se debe utilizar un sistema
+UNIX para propositos de desarrollo, se imparte también una rápida introducción 
+al lenguaje de programación Python, en el cual aprenderás a leer, entender y
 escribir programas y modulos, aprenderas a instalar y a hacer la
 configuracion basica de un servidor OpenERP, finalmente, te mostraremos como
 utilizar la plataforma de desarrollo con la cual trabaja OpenERP (Launchpad).
@@ -129,7 +129,7 @@ Tercer Paso: Modificando el cliente web Entrenamiento en tecnologías Web.
 -------------------------------------------------------------------------
 
 Al comienzo de los entrenamientos se dictará sin costo un pequeño taller de
-forma grartuita para los participantes sobre bazaar y el control de versiones,
+forma gratuita para los participantes sobre bazaar y el control de versiones,
 que quedará disponible para su revisión ya que todo el avance que estaremos
 llevando a cabo durante los cursos 
 
