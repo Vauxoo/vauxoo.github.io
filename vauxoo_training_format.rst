@@ -1,4 +1,4 @@
-Pln de entrenamiento en OpenERP.
+Planes de entrenamiento en OpenERP.
 =================================
 
 Una de las particularidades del Mundo de las tecnología de información es  que
