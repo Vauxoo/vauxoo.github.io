@@ -24,22 +24,21 @@ disponible, lo colocamos de forma cómoda y estructurada para llevarte de la
 mano por un cámino más corto  a convertir esa información en conocimiento. 
 
 Te ayudamos a evitar la inversión incorrecta de tiempo para que puedas
-dedicarle ese tiempo a generar valor a tus cliente, y cliente bien atendido es
+dedicarle ese tiempo a generar valor a tus cliente, y un cliente bien atendido, es un
 cliente contento.
 
 Primer Paso: Conociendo la herramienta Entrenamiento funcional.
 ---------------------------------------------------------------
 
-Lo primero que recomendamos hacer es conocer funcionalmente OpenERP esto te
-permite saber con que cuentas actualmente desarrollado en la herramienta y
-poder tomar decisiones correctas en el lenguaje de tus usuarios si eres técnico
-u ofrecer a tus usuarios.
+Lo primero que recomendamos hacer es conocer funcionalmente OpenERP, esto te
+permite saber con que cuentas en la herramienta y para la toma de decisiones
+correctas en el lenguaje de tus usuarios si eres técnico.
 
 Durante éste curso hacemos un recorrido completo por todos los procesos
-disponible como base para la gestión de una empresa teórica, de ésta manera
+disponibles como base para la gestión de una empresa teórica, de ésta manera
 podrás evaluar todo el comportamiento integrado de OpenERP.
 
-Si eres programador conocer que hace actualmente la herramienta que comenzarás
+Si eres programador, conocer que hace actualmente la herramienta que comenzarás
 a modificar es vital para saber qué y donde debes realmente modificar, muchas
 veces la mayor cantidad de retrabajo en la Implementación de OpenERP en
 cualquiera de sus módulos se debe al desconocimiento funcional del mismo y la
@@ -60,7 +59,7 @@ Segundo Paso: Estableciendo las bases técnicas Entrenamiento Técnico Oficial.
 
 En éste entrenamiento obtendrás todas las herramientas necesarias para
 modificar ó agregar elementos a los modelos existentes en OpenERP, cambiar el
-comportamiento de los objetos de negocios y ajustar los procesos de Openerp
+comportamiento de los objetos de negocio y ajustar los procesos de OpenERP
 para que se ajusten por completo a las necesidades de tus clientes.
 
 Si no hay nada que se parezca a lo que necesitas, no hay problema, te
@@ -87,8 +86,8 @@ Capacitación para manejar el nuevo framework JavaScript, que te permitirá
 modificar y/o mejorar el comportamiento original del Cliente Web de OpenERP y
 agregarle características a los widgets originales, Modificar el Punto de Venta
 (casi totalmente escrito en Java Script) y mejorar su comportamiento a través
-de módulos externos usando los mismos algorithmos que ya usamos en los módulos
-módulos del lado del servidor para los objetos de negocio.
+de módulos externos usando los mismos algoritmos que ya usamos en los módulos 
+del lado del servidor para los objetos de negocio.
 
 Ésta parte del entrenamiento web está dividida en 2 secciones, "Conocimientos
 Base" y el manejo del Framework OpenERP Web [Disponible desde la versión 7.0 de
@@ -114,7 +113,7 @@ para que te sientas cómodo con la programación para sitios HTML5.
 
 - Haciendo un módulo simple para probar el Framework Web, y entender la
   estructura.
-- Múdolo JavaScript en OpenERP.
+- Módulo JavaScript en OpenERP.
 - Clases
 - Widgets Básicos
 - El motor de templates Qweb.
