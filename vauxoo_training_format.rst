@@ -158,7 +158,7 @@ necesarias para que te sientas cómodo con la programación para sitios HTML5.
 
 **Framework Openerp Web.**
 
-Una vez tengas la información mínima necesaria de programación html5 te daremos
+Una vez tengas la información mínima necesaria de programación HTML5 te daremos
 la información necesaria de forma estructurada para que la utilices de forma
 eficiente modificando el comportamiento de OpenERP.
 
@@ -179,20 +179,19 @@ eficiente modificando el comportamiento de OpenERP.
 Openerp Módulos Website [Openerp V8.0].
 ---------------------------------------
 
-En la versión 8 (Actualmente Trunk) de OpenERP contarás con un completo
-framework para el desarrollo de sitios web, tiendas en línea y colocar pública
-la información posible directamente desde tus módulos usando OpenERP, para
-mostrarte que podrás hacer un pequeño video con la `explicación
-<https://www.youtube.com/watch?v=Ug0n1lUAkrw>`_.
+En la versión 8 de OpenERP contarás con un completo framework para el desarrollo 
+de sitios web, tiendas en línea y colocar públicala información posible 
+directamente desde tus módulos usando OpenERP, para mostrarte que podrás hacer un 
+pequeño video con la `explicación <https://www.youtube.com/watch?v=Ug0n1lUAkrw>`_.
 
 - Introducción funcional.
 - Nuevas características en openerp-server.
 - Controladores Web.
 - Vistas Qweb.
-- Re-usando y creando tus propios recortes (snnipets).
+- Re-usando y creando tus propios recortes (snippets).
 - Haciendo tus temas con bootswatch.
 - Convertir un sitio HTML5 en un módulo website.
-- Sitios website enlazados a Modelos OpenERP,
+- Sitios website enlazados a Modelos OpenERP.
 - Análisis técnico del módulo website_sale y website_event.
 - Mejores prácticas para el despliegue de tu sitio.
 - Mejores prácticas para el diseño de tu sitio.
@@ -201,7 +200,7 @@ Herramientas para programadores OpenERP.
 ----------------------------------------
 
 Ésta sección está preparada para aquellos administradores de servidores que
-quieren hacer despliegues profesionales de OpenERP, necesiten una estructura de
+quieran hacer despliegues profesionales de OpenERP, que necesiten una estructura de
 trabajo sólida y herramientas que les permitan manejar conceptos cómo calidad,
 alto desempeño y automatismos con OpenERP.
 
@@ -231,5 +230,3 @@ anteriormente?**
 Si consideras que dominas todos los tópicos de los cursos web arriba descritos,
 no dejes de validar los tópicos específicos por que es posible que necesites un 
 día o dos de los tópicos que aún no domines.
-
-¡Saludos!
