@@ -124,37 +124,29 @@ utilizar la plataforma de desarrollo con la cual trabaja OpenERP (Launchpad).
 Cabe destacar que cada participante recibe material paso a paso con ejercicios
 y soluciones.
 
-
-
 Tercer Paso: Modificando el cliente web Entrenamiento en tecnologías Web.
 -------------------------------------------------------------------------
 
-Al comienzo de los entrenamientos se dictará sin costo un pequeño taller de
-forma gratuita para los participantes sobre bazaar y el control de versiones,
-que quedará disponible para su revisión ya que todo el avance que estaremos
-llevando a cabo durante los cursos 
+Openerp Web.
+''''''''''''
 
-Framework Web.
-''''''''''''''
-
-Capacitación para manejar el nuevo framework JavaScript, que te permitirá
-modificar y/o mejorar el comportamiento original del Cliente Web de OpenERP y
-agregarle características a los widgets originales, Modificar el Punto de Venta
-(casi totalmente escrito en Java Script) y mejorar su comportamiento a través
-de módulos externos usando los mismos algoritmos que ya usamos en los módulos 
-del lado del servidor para los objetos de negocio.
+Capacitación para manejar el framework JavaScript, que te permitirá modificar
+y/o mejorar el comportamiento original del Cliente Web y agregarle
+características a los widgets originales, Modificar el Punto de Venta ya que
+éste se encuentra casi totalmente escrito en JavaScript y mejorar su
+comportamiento a través de módulos externos. 
 
 Ésta parte del entrenamiento web está dividida en 2 secciones, "Conocimientos
-Base" y el manejo del Framework OpenERP Web [Disponible desde la versión 7.0 de
-OpenERP].
+Base" para aquellos que no tienen conocimientos iniciales de desarrollo sobre
+las tecnologías utilizadas y el manejo propio del Framework OpenERP Web.
 
 **Conocimiento Base.**
 
 En ésta sección del curso se dará la información mínima necesaria para que
 puedas convertirte en un programador web sin Frameworks, si vienes de ser
-programador Java, Python .net o lenguajes que funcionan del lado del servidor
-ésta sección es importante para tí ya que te dará las herramientas necesarias
-para que te sientas cómodo con la programación para sitios HTML5.
+programador Java, Python o lenguajes y frameworks que se ejecutan del lado del
+servidor ésta sección es importante para tí ya que te dará las herramientas
+necesarias para que te sientas cómodo con la programación para sitios HTML5.
 
 - Fundamentos de JavaScript.
 - Fundamentos básicos de Jquery. 
@@ -165,6 +157,10 @@ para que te sientas cómodo con la programación para sitios HTML5.
 - HTTP con python.
 
 **Framework Openerp Web.**
+
+Una vez tengas la información mínima necesaria de programación html5 te daremos
+la información necesaria de forma estructurada para que la utilices de forma
+eficiente modificando el comportamiento de OpenERP.
 
 - Haciendo un módulo simple para probar el Framework Web, y entender la
   estructura.
@@ -183,9 +179,11 @@ para que te sientas cómodo con la programación para sitios HTML5.
 Openerp Módulos Website [Openerp V8.0].
 ---------------------------------------
 
-En la versión 8 de OpenERP contarás con un completo framework para el
-desarrollo de sitios usando OpenERP, para mostrarte que podrás hacer un pequeño
-video con la `explicación <https://www.youtube.com/watch?v=Ug0n1lUAkrw>`_.
+En la versión 8 (Actualmente Trunk) de OpenERP contarás con un completo
+framework para el desarrollo de sitios web, tiendas en línea y colocar pública
+la información posible directamente desde tus módulos usando OpenERP, para
+mostrarte que podrás hacer un pequeño video con la `explicación
+<https://www.youtube.com/watch?v=Ug0n1lUAkrw>`_.
 
 - Introducción funcional.
 - Nuevas características en openerp-server.
@@ -202,10 +200,14 @@ video con la `explicación <https://www.youtube.com/watch?v=Ug0n1lUAkrw>`_.
 Herramientas para programadores OpenERP.
 ----------------------------------------
 
+Ésta sección está preparada para aquellos administradores de servidores que
+quieren hacer despliegues profesionales de OpenERP, necesiten una estructura de
+trabajo sólida y herramientas que les permitan manejar conceptos cómo calidad,
+alto desempeño y automatismos con OpenERP.
 
 En ésta sección compartiremos contigo las mejores prácticas para poner todo el
 conocimiento aprendido, y hacer que tu tiempo de programación, despliegue y
-administración se lo más efectivo y eficaz posible.
+administración sea lo más efectivo y eficaz posible.
 
 - Mejores prácticas en la programación Python.
 - Usando y aprovechando Runbot, plataforma de pruebas de OpenERP.
@@ -229,6 +231,5 @@ anteriormente?**
 Si consideras que dominas todos los tópicos de los cursos web arriba descritos,
 no dejes de validar los tópicos específicos por que es posible que necesites un 
 día o dos de los tópicos que aún no domines.
-
 
 ¡Saludos!
