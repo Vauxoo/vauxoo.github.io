@@ -175,6 +175,9 @@ eficiente modificando el comportamiento de OpenERP.
 - Comunicación con el servidor OpenERP.
 - Ejemplos prácticos "El proyecto web-addons de la OCA."
 - Analizando a profundidad el módulo POS.
+  
+Cabe destacar que cada participante recibe material paso a paso con ejercicios y 
+solucines en documento y material audiovisual.
 
 Openerp Módulos Website [Openerp V8.0].
 ---------------------------------------
