@@ -74,10 +74,11 @@ El contenido del curso Funcional lo puedes tener en los enlaces debajo de éste 
 Segundo Paso: Estableciendo las bases técnicas Entrenamiento Técnico Oficial.
 -----------------------------------------------------------------------------
 
-Este entrenamiento esta dedicado a Partners, Integradores y Desarolladores que 
-necesitan tener conocimientos acerca de el proceso de desarrollo de OpenERP.
+Este entrenamiento esta dedicado a Partners, Integradores y Desarrolladores que 
+necesitan tener conocimientos acerca de el proceso de creacion de modulos
+del lado del servidor de OpenERP.
 
-Esta diseñado para nuevos desarolladores y profesionales de IT con ganas de
+Esta diseñado para nuevos desarrolladores y profesionales de IT con ganas de
 aprender acerca de los aspectos técnicos de OpenERP.
 
 En éste entrenamiento obtendrás todas las herramientas necesarias para
