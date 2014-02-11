@@ -12,7 +12,7 @@ proyecto.
 Instalación.
 ============
     
-Lo instalas como cualquier paquete en Ubuntu::
+Lo instalas como cualquier paquete en Ubuntu ::
 
     $sudo apt-get install bzr
 
