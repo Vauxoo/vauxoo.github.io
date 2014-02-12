@@ -124,19 +124,19 @@ utilizar la plataforma de desarrollo con la cual trabaja OpenERP (Launchpad).
 Cabe destacar que cada participante recibe material paso a paso con ejercicios
 y soluciones.
 
-Tercer Paso: Modificando el cliente web Entrenamiento en tecnologías Web.
+Tercer Paso: Modificando el cliente web.
 -------------------------------------------------------------------------
 
 Openerp Web.
 ''''''''''''
 
-Capacitación para manejar el framework JavaScript, que te permitirá modificar
+Este entrenamiento esta diseñado para manejar el framework JavaScript, que te permitirá modificar
 y/o mejorar el comportamiento original del Cliente Web y agregarle
 características a los widgets originales, Modificar el Punto de Venta ya que
 éste se encuentra casi totalmente escrito en JavaScript y mejorar su
 comportamiento a través de módulos externos. 
 
-Ésta parte del entrenamiento web está dividida en 2 secciones, "Conocimientos
+Ésta seccion del entrenamiento web está dividida en 2 secciones, "Conocimientos
 Base" para aquellos que no tienen conocimientos iniciales de desarrollo sobre
 las tecnologías utilizadas y el manejo propio del Framework OpenERP Web.
 
@@ -145,8 +145,10 @@ las tecnologías utilizadas y el manejo propio del Framework OpenERP Web.
 En ésta sección del curso se dará la información mínima necesaria para que
 puedas convertirte en un programador web sin Frameworks, si vienes de ser
 programador Java, Python o lenguajes y frameworks que se ejecutan del lado del
-servidor ésta sección es importante para tí ya que te dará las herramientas
+servidor, ésta sección es importante para tí ya que te dará las herramientas
 necesarias para que te sientas cómodo con la programación para sitios HTML5.
+
+Abordaremos temas como: 
 
 - Fundamentos de JavaScript.
 - Fundamentos básicos de Jquery. 
@@ -158,23 +160,25 @@ necesarias para que te sientas cómodo con la programación para sitios HTML5.
 
 **Framework Openerp Web.**
 
-Una vez tengas la información mínima necesaria de programación HTML5 te daremos
-la información necesaria de forma estructurada para que la utilices de forma
-eficiente modificando el comportamiento de OpenERP.
+Una vez que tengas la información mínima necesaria de programación HTML5, te daremos
+las herramientas de forma estructurada para que la utilices
+eficientemente, modificando el comportamiento del cliente web de OpenERP.
 
-- Haciendo un módulo simple para probar el Framework Web, y entender la
+Durante este curso veremos:
+
+- Módulo simple para probar el Framework Web, y entender la
   estructura.
 - Módulo JavaScript en OpenERP.
 - Clases
 - Widgets Básicos
-- El motor de templates Qweb.
+- El motor de templates Qweb del lado del servidor.
 - Eventos de los Widget y sus propiedades.
 - Widget Helpers
 - Modificando Widgets y clases existentes.
 - Traducciones.
 - Comunicación con el servidor OpenERP.
-- Ejemplos prácticos "El proyecto web-addons de la OCA."
-- Analizando a profundidad el módulo POS.
+- Ejemplos prácticos "El proyecto web-addons de la comunidad."
+- y analizaremos a profundidad el módulo POS.
   
 Cabe destacar que cada participante recibe material paso a paso con ejercicios y 
 solucines en documento y material audiovisual.
