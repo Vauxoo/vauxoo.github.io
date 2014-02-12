@@ -186,8 +186,8 @@ solucines en documento y material audiovisual.
 Openerp Módulos Website [Openerp V8.0].
 ---------------------------------------
 
-En la versión 8 de OpenERP contarás con un completo framework para el desarrollo 
-de sitios web, tiendas en línea y colocar públicala información posible 
+A partir de la versión 8 de OpenERP contarás con un completo framework para el desarrollo 
+de sitios web, tiendas en línea y colocar pública la información posible 
 directamente desde tus módulos usando OpenERP, para mostrarte que podrás hacer un 
 pequeño video con la `explicación <https://www.youtube.com/watch?v=Ug0n1lUAkrw>`_.
 
