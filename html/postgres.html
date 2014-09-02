@@ -17,7 +17,7 @@
     
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="http://nhomar.github.io/bootswatch/vauxoo/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="http://nhomar.github.io/theme/css/bootstrap.vauxoo.min.css" type="text/css" />
     <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
     
     <script type="text/javascript">
@@ -149,8 +149,9 @@ no es así acá algunas soluciones a los problemas.</p>
 </div>
 <p><strong>Solución:</strong></p>
 <p>Deberás crear manualmente el usuario PostgreSQL <cite>pedro</cite>:</p>
-<div class="highlight-python"><pre>$sudo su -c postgres "createuser -s pedro"
-&gt;&gt;Responde las preguntas con el password con No - Si - No</pre>
+<div class="highlight-python"><div class="highlight"><pre>$sudo su -c postgres &quot;createuser -s pedro&quot;
+&gt;&gt;Responde las preguntas con el password con No - Si - No
+</pre></div>
 </div>
 <p>Acabamos de crear un usuario postgres que no es super user, se llama como tu usuario *nix y puede
 crear bases de datos es el ususario que utilizaremos para nuestros desarrollos.</p>
@@ -160,16 +161,20 @@ crear bases de datos es el ususario que utilizaremos para nuestros desarrollos.<
 </ul>
 </div></blockquote>
 <p>Editamos el archivo:</p>
-<div class="highlight-python"><pre>$nano /etc/postgresql/8.4/main/pg_hba.conf</pre>
+<div class="highlight-python"><div class="highlight"><pre>$nano /etc/postgresql/8.4/main/pg_hba.conf
+</pre></div>
 </div>
 <p>Cambiamos la línea que dice:</p>
-<div class="highlight-python"><pre>local all all ident</pre>
+<div class="highlight-python"><div class="highlight"><pre>local all all ident
+</pre></div>
 </div>
 <p>por:</p>
-<div class="highlight-python"><pre>local all all md5</pre>
+<div class="highlight-python"><div class="highlight"><pre>local all all md5
+</pre></div>
 </div>
 <p>Reiniciamos PostgreSQL:</p>
-<div class="highlight-python"><pre>$sudo services postgresql restart</pre>
+<div class="highlight-python"><div class="highlight"><pre>$sudo services postgresql restart
+</pre></div>
 </div>
 <p>Una vez reiniciado PostgreSQL, <tt class="docutils literal"><span class="pre">iniciamos</span> <span class="pre">openerp</span> <span class="pre">conectandonos</span> <span class="pre">con</span> <span class="pre">otro</span> <span class="pre">ususario</span> <span class="pre">diferente</span> <span class="pre">al</span>
 <span class="pre">conectado</span> <span class="pre">\*</span></tt>.</p>
@@ -198,7 +203,7 @@ crear bases de datos es el ususario que utilizaremos para nuestros desarrollos.<
     </p>
     <p>
         &copy; Copyright 2013, Vauxoo.<br/>
-      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2b1.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.3.<br/>
     </p>
   </div>
   </div>
