@@ -16,17 +16,17 @@ Iniciar tu entorno OpenERP
 Instalación desde las fuentes
 =============================
 
-El código fuente se encuentra en Launchpad_. Para obtener el código fuente deberás tener instalado
-Bazaar_ que es el sistema de control de versiones utilizado por OpenERP para manejar su código
+El código fuente se encuentra en github. Para obtener el código fuente deberás tener instalado
+git que es el sistema de control de versiones utilizado por OpenERP para manejar su código
 fuente de ésta manera podrás bajar el mismo, básicamente éste sistema te permite llevar un
 seguimiento de los cambios en la historia del proyecto y colaborar eficientemente. Deberás crear tu
-cuenta en launchpad para ser capaz de colaborar con el proyecto OpenERP en su desarrollo,
+cuenta en github para ser capaz de colaborar con el proyecto OpenERP en su desarrollo,
 reportando errores, proponiendo tus cambios y dando retroalimentación. Por favor revisa los
 manuales de éstas dos herramientas para mayor información.
 
 .. tip::
 
-    Si está en un sistema basado en Ubuntu o Debian deberás instalar Bazaar_ con el siguiente comando::
+    Si está en un sistema basado en Ubuntu o Debian deberás instalar git con el siguiente comando::
         
         sudo apt-get install git
 
