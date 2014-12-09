@@ -28,7 +28,7 @@ manuales de éstas dos herramientas para mayor información.
 
     Si está en un sistema basado en Ubuntu o Debian deberás instalar Bazaar_ con el siguiente comando::
         
-        sudo apt-get install bzr bzrtools
+        sudo apt-get install git
 
 Directorio de trabajo
 ---------------------
@@ -36,24 +36,6 @@ Directorio de trabajo
 Lo primero que haremos es crear el directorio de trabajo donde nuestras fuentes estarán alojadas::
 
     mkdir source;cd source
-
-Descarga el Script de inicio
-----------------------------
-
-Openerp te provee un Script para automatizar las tareas de crear y compartir los repositorios de su
-código fuente éste Script lo podemos obtener con el siguiente comando::
-
-  bzr cat -d lp:~openerp-dev/openerp-tools/trunk setup.sh | sh
-
-Éste comando creará dos archivos el el directorio ``source`` creado anteriormente::
-
-  -rw-rw-r--  1 openerp openerp 5465 2012-04-17 11:05 Makefile
-  -rw-rw-r--  1 openerp openerp 2902 2012-04-17 11:05 Makefile_helper.py
-
-Te recomendamos leer la ayuda de las opciones disponibles con éste Script ejecutando el siguiente
-comando::
-
-  make help
 
 Descarga las fuentes
 --------------------
@@ -64,18 +46,12 @@ Descarga las fuentes
     hora, cuando ejecutes el siguiente comando asegurate de estar conectado a internet y de poseer
     al menos 2 gb de espacio disponible en disco.
 
-Para obtener el código fuente de la última versión estable (en éste caso la versión 7.0) ejecuta el
+Para obtener el código fuente de la última versión estable (en éste caso la versión 8.0) ejecuta el
 siguiente comando::
 
-  make init-v70
+  git clone https://github.com/odoo/odoo.git -b 8.0
 
-Ésto creará los siguiente directorios dentro  de ``source`` y descargará la última versión ``trunk``
-de OpenERP y ajustará los directorios para trabajar con OpenERP V70::
-
-  drwxrwxr-x  3 openerp openerp 4096 2012-04-17 11:10 addons
-  drwxrwxr-x  3 openerp openerp 4096 2012-04-17 11:10 misc
-  drwxrwxr-x  3 openerp openerp 4096 2012-04-17 11:10 server
-  drwxrwxr-x  3 openerp openerp 4096 2012-04-17 11:10 web
+Ésto creará los siguientes `Directorios <https://github.com/odoo/odoo/tree/8.0/>`_
 
 Instalando las dependencias
 ---------------------------
@@ -136,8 +112,8 @@ Probamos que todo esté en orden
 Para probar que todo está en orden podemos abrir nuestro navegador en el siguiente enlace
 http://localhost:8069/ debería aparecerte la ventana de creación de bases de datos.
 
-.. _Launchpad: https://launchpad.net/
-.. _Bazaar: http://bazaar.canonical.com/en/
+.. _Github: https://github.com/
+.. _Git: http://git-scm.com/
 .. _Ubuntu: http://www.ubuntu.com
 
 Opciones de la Línea de comandos
